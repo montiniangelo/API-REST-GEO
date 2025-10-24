@@ -1,13 +1,13 @@
-name = "api-coordinate"
+name = "geomont"
 main = "worker.js"
-compatibility_date = "2024-01-15"
-node_compat = true
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
 
 [env.production]
-name = "api-coordinate"
+name = "geomont"
 
 [env.staging]
-name = "api-coordinate-staging"
+name = "geomont-staging"
 
 # Variabili d'ambiente
 [vars]
