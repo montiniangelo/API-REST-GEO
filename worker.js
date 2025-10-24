@@ -189,13 +189,14 @@ export default {
           version: '1.0.0',
           status: 'running',
           timestamp: new Date().toISOString(),
+          availableCities: Object.keys(citiesDatabase).length,
           apiEndpoint: '/api/',
           documentation: '/api/',
           health: '/api/health',
           examples: {
-            search: '/api/coordinates/search?q=Roma',
+            search: '/api/coordinates/search?q=Milano',
             direct: '/api/coordinates/Milano',
-            reverse: '/api/coordinates/reverse?lat=41.9028&lng=12.4964',
+            reverse: '/api/coordinates/reverse?lat=45.4642&lng=9.1900',
             suggestions: '/api/coordinates/suggestions?q=Rom'
           }
         }), {
@@ -210,7 +211,8 @@ export default {
           status: 'healthy',
           timestamp: new Date().toISOString(),
           version: '1.0.0',
-          environment: 'production'
+          environment: 'production',
+          availableCities: Object.keys(citiesDatabase).length
         }), {
           status: 200,
           headers: corsHeaders
