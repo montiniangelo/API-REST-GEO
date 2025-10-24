@@ -1,0 +1,18 @@
+{
+  "name": "Coordinate Comuni Italiani",
+  "short_name": "Coordinate",
+  "description": "Trova le coordinate geografiche dei comuni italiani",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#4facfe",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXIpIi8+CjxwYXRoIGQ9Ik0yNTYgMTAwQzIwMi45IDEwMCAxNjAgMTQyLjkgMTYwIDE5NkMxNjAgMjczLjMgMjU2IDQxMiAyNTYgNDEyUzM1MiAyNzMuMyAzNTIgMTk2QzM1MiAxNDIuOSAzMDkuMSAxMDAgMjU2IDEwMFpNMjU2IDI0MEMyMzEuNiAyNDAgMjEyIDE5Ni40IDIxMiAxOTZTMjMxLjYgMTUyIDI1NiAxNTJTMzAwIDE5NiAzMDAgMTk2UzMwMCAyNDAgMjU2IDI0MFoiIGZpbGw9IndoaXRlIi8+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXIiIHgxPSIwIiB5MT0iMCIgeDI9IjUxMiIgeTI9IjUxMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjNEZBQ0ZFIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwRjJGRSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["utilities", "productivity", "navigation"]
+}

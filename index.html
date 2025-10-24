@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinate Comuni Italiani</title>
+    <meta name="description" content="Trova facilmente le coordinate geografiche (latitudine e longitudine) dei comuni italiani con questa web app gratuita e veloce.">
+    <meta name="keywords" content="coordinate, comuni italiani, latitudine, longitudine, geocodifica, GPS">
+    <meta name="author" content="Coordinate Comuni Italiani">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Coordinate Comuni Italiani">
+    <meta property="og:description" content="Trova facilmente le coordinate geografiche dei comuni italiani">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com">
+    
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4facfe">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌍 Coordinate Comuni Italiani</h1>
+            <p>Inserisci il nome di un comune italiano per ottenere le sue coordinate geografiche</p>
+        </div>
+
+        <div class="search-section">
+            <div class="input-group">
+                <input type="text" id="cityInput" placeholder="Es: Roma, Milano, Napoli..." autocomplete="off">
+                <button id="searchBtn" onclick="searchCoordinates()">
+                    <span id="searchText">Cerca</span>
+                    <span id="loadingSpinner" class="spinner" style="display: none;">⏳</span>
+                </button>
+            </div>
+            
+            <div class="divider">
+                <span>oppure</span>
+            </div>
+            
+            <div class="location-group">
+                <button id="locationBtn" onclick="getCurrentLocation()">
+                    <span id="locationIcon">📍</span>
+                    <span id="locationText">La mia posizione</span>
+                    <span id="locationSpinner" class="spinner" style="display: none;">⏳</span>
+                </button>
+                <p class="location-help">Ottieni le coordinate GPS della tua posizione attuale</p>
+            </div>
+            
+            <div class="suggestions" id="suggestions"></div>
+        </div>
+
+        <div class="result-section" id="resultSection" style="display: none;">
+            <div class="result-card">
+                <h3 id="resultCity"></h3>
+                <div class="coordinates">
+                    <div class="coord-item">
+                        <label>Latitudine:</label>
+                        <span id="latitude" class="coord-value"></span>
+                        <button class="copy-btn" onclick="copyToClipboard('latitude')">📋</button>
+                    </div>
+                    <div class="coord-item">
+                        <label>Longitudine:</label>
+                        <span id="longitude" class="coord-value"></span>
+                        <button class="copy-btn" onclick="copyToClipboard('longitude')">📋</button>
+                    </div>
+                </div>
+                <div class="actions">
+                    <button class="action-btn" onclick="openGoogleMaps()">📍 Vedi su Google Maps</button>
+                    <button class="action-btn" onclick="copyBothCoordinates()">📋 Copia entrambe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="error-section" id="errorSection" style="display: none;">
+            <div class="error-card">
+                <h3>⚠️ Errore</h3>
+                <p id="errorMessage"></p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Dati forniti da <a href="https://nominatim.openstreetmap.org/" target="_blank">OpenStreetMap Nominatim</a></p>
+            <p>Made with ❤️ for Italian municipalities</p>
+        </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+    <script src="script.js"></script>
+</body>
+</html>

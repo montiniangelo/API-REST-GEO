@@ -1,0 +1,40 @@
+# File da escludere dal deployment su Cloudflare Workers
+
+# Testing
+tests/
+coverage/
+*.test.js
+jest.config.js
+test-deploy.js
+
+# Development files
+.env.example
+README.md
+DEPLOYMENT.md
+Dockerfile
+docker-compose.yml
+nginx.conf
+
+# Git
+.git/
+.gitignore
+
+# Node modules (vengono gestiti automaticamente da Wrangler)
+node_modules/
+
+# Logs e cache
+*.log
+.DS_Store
+
+# File statici non necessari per l'API
+index.html
+styles.css
+script.js
+manifest.json
+robots.txt
+sitemap.xml
+_headers
+
+# IDE
+.vscode/
+.idea/

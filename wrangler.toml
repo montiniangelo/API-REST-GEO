@@ -1,0 +1,21 @@
+name = "api-coordinate"
+main = "worker.js"
+compatibility_date = "2024-01-15"
+node_compat = true
+
+[env.production]
+name = "api-coordinate"
+
+[env.staging]
+name = "api-coordinate-staging"
+
+# Variabili d'ambiente
+[vars]
+NODE_ENV = "production"
+PORT = "8080"
+
+# Configurazione per rate limiting
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "your-kv-namespace-id"
+preview_id = "your-preview-kv-namespace-id"
