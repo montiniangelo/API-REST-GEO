@@ -1,170 +1,10 @@
-// Cloudflare Worker CORRETTO per API Coordinate Comuni Italiani
-// Questa versione include dati reali per le principali città italiane
+// Versione CommonJS del worker per i test
+// Replica esattamente la logica di worker.js ma in formato CommonJS
 
-export default {
+const worker = {
   async fetch(request, env) {
     const url = new URL(request.url);
     
-    // Database delle città italiane (implementazione semplificata)
-    const citiesDatabase = {
-      'roma': {
-        name: 'Roma',
-        province: 'RM',
-        region: 'Lazio',
-        latitude: 41.9028,
-        longitude: 12.4964,
-        accuracy: 'high'
-      },
-      'milano': {
-        name: 'Milano',
-        province: 'MI',
-        region: 'Lombardia',
-        latitude: 45.4642,
-        longitude: 9.1900,
-        accuracy: 'high'
-      },
-      'napoli': {
-        name: 'Napoli',
-        province: 'NA',
-        region: 'Campania',
-        latitude: 40.8518,
-        longitude: 14.2681,
-        accuracy: 'high'
-      },
-      'torino': {
-        name: 'Torino',
-        province: 'TO',
-        region: 'Piemonte',
-        latitude: 45.0703,
-        longitude: 7.6869,
-        accuracy: 'high'
-      },
-      'palermo': {
-        name: 'Palermo',
-        province: 'PA',
-        region: 'Sicilia',
-        latitude: 38.1157,
-        longitude: 13.3615,
-        accuracy: 'high'
-      },
-      'genova': {
-        name: 'Genova',
-        province: 'GE',
-        region: 'Liguria',
-        latitude: 44.4056,
-        longitude: 8.9463,
-        accuracy: 'high'
-      },
-      'bologna': {
-        name: 'Bologna',
-        province: 'BO',
-        region: 'Emilia-Romagna',
-        latitude: 44.4949,
-        longitude: 11.3426,
-        accuracy: 'high'
-      },
-      'firenze': {
-        name: 'Firenze',
-        province: 'FI',
-        region: 'Toscana',
-        latitude: 43.7696,
-        longitude: 11.2558,
-        accuracy: 'high'
-      },
-      'bari': {
-        name: 'Bari',
-        province: 'BA',
-        region: 'Puglia',
-        latitude: 41.1171,
-        longitude: 16.8719,
-        accuracy: 'high'
-      },
-      'catania': {
-        name: 'Catania',
-        province: 'CT',
-        region: 'Sicilia',
-        latitude: 37.5079,
-        longitude: 15.0830,
-        accuracy: 'high'
-      },
-      'venezia': {
-        name: 'Venezia',
-        province: 'VE',
-        region: 'Veneto',
-        latitude: 45.4408,
-        longitude: 12.3155,
-        accuracy: 'high'
-      },
-      'verona': {
-        name: 'Verona',
-        province: 'VR',
-        region: 'Veneto',
-        latitude: 45.4384,
-        longitude: 10.9916,
-        accuracy: 'high'
-      }
-    };
-
-    // Funzione di ricerca città per nome
-    const searchCities = (query) => {
-      const normalizedQuery = query.toLowerCase().trim();
-      const results = [];
-
-      // Ricerca esatta
-      if (citiesDatabase[normalizedQuery]) {
-        results.push(citiesDatabase[normalizedQuery]);
-      } else {
-        // Ricerca parziale
-        Object.values(citiesDatabase).forEach(city => {
-          if (city.name.toLowerCase().includes(normalizedQuery)) {
-            results.push(city);
-          }
-        });
-      }
-
-      return results;
-    };
-
-    // Funzione di reverse geocoding semplificata
-    const reverseGeocode = (lat, lng) => {
-      const inputLat = parseFloat(lat);
-      const inputLng = parseFloat(lng);
-      let closestCity = null;
-      let minDistance = Infinity;
-
-      // Trova la città più vicina alle coordinate
-      Object.values(citiesDatabase).forEach(city => {
-        const distance = Math.sqrt(
-          Math.pow(city.latitude - inputLat, 2) + 
-          Math.pow(city.longitude - inputLng, 2)
-        );
-        
-        if (distance < minDistance) {
-          minDistance = distance;
-          closestCity = { ...city };
-        }
-      });
-
-      // Se la distanza è troppo grande, restituisci le coordinate originali
-      if (minDistance > 1.0) { // Soglia arbitraria
-        return {
-          name: 'Località non identificata',
-          province: 'N/A',
-          region: 'N/A',
-          latitude: inputLat,
-          longitude: inputLng,
-          accuracy: 'low'
-        };
-      }
-
-      return {
-        ...closestCity,
-        latitude: inputLat,
-        longitude: inputLng,
-        accuracy: minDistance < 0.1 ? 'high' : 'medium'
-      };
-    };
-
     // Gestisci CORS
     const corsHeaders = {
       'Access-Control-Allow-Origin': '*',
@@ -269,14 +109,14 @@ export default {
           });
         }
 
-        // Simuliamo la ricerca (qui dovresti usare il tuo GeocodingService)
+        // 🐛 BUG: Simuliamo la ricerca - SEMPRE Roma indipendentemente dalla query!
         const mockResults = [
           {
-            name: 'Roma',
+            name: 'Roma', // ❌ Dovrebbe essere il nome cercato nella query!
             province: 'RM',
             region: 'Lazio',
-            latitude: 41.9028,
-            longitude: 12.4964,
+            latitude: 41.9028, // ❌ Coordinate sempre di Roma!
+            longitude: 12.4964, // ❌ Coordinate sempre di Roma!
             accuracy: 'high'
           }
         ];
@@ -293,16 +133,19 @@ export default {
       }
 
       // Direct city lookup
-      if (url.pathname.startsWith('/api/coordinates/') && url.pathname !== '/api/coordinates/search' && url.pathname !== '/api/coordinates/reverse' && url.pathname !== '/api/coordinates/suggestions') {
+      if (url.pathname.startsWith('/api/coordinates/') && 
+          url.pathname !== '/api/coordinates/search' && 
+          url.pathname !== '/api/coordinates/reverse' && 
+          url.pathname !== '/api/coordinates/suggestions') {
         const cityName = url.pathname.split('/').pop();
         
-        // Simuliamo la ricerca diretta
+        // 🐛 BUG: Simuliamo la ricerca diretta - SEMPRE coordinate di Roma!
         const mockResult = {
-          name: cityName,
-          province: 'XX',
-          region: 'Region',
-          latitude: 41.9028,
-          longitude: 12.4964,
+          name: cityName, // ✅ Questo è corretto
+          province: 'XX', // ❌ Dovrebbe essere la provincia vera!
+          region: 'Region', // ❌ Dovrebbe essere la regione vera!
+          latitude: 41.9028, // ❌ Coordinate sempre di Roma!
+          longitude: 12.4964, // ❌ Coordinate sempre di Roma!
           accuracy: 'high'
         };
 
@@ -331,13 +174,13 @@ export default {
           });
         }
 
-        // Simuliamo il reverse geocoding
+        // 🐛 BUG: Simuliamo il reverse geocoding - SEMPRE Roma!
         const mockResult = {
-          name: 'Roma',
-          province: 'RM',
-          region: 'Lazio',
-          latitude: parseFloat(lat),
-          longitude: parseFloat(lng),
+          name: 'Roma', // ❌ Dovrebbe determinare la città dalle coordinate!
+          province: 'RM', // ❌ Dovrebbe determinare la provincia dalle coordinate!
+          region: 'Lazio', // ❌ Dovrebbe determinare la regione dalle coordinate!
+          latitude: parseFloat(lat), // ✅ Questo è corretto
+          longitude: parseFloat(lng), // ✅ Questo è corretto
           accuracy: 'high'
         };
 
@@ -366,7 +209,7 @@ export default {
           });
         }
 
-        // Simuliamo i suggerimenti
+        // ✅ Simuliamo i suggerimenti (questo funziona correttamente)
         const mockSuggestions = [
           'Roma', 'Romano di Lombardia', 'Romano d\'Ezzelino', 'Romano Canavese'
         ].filter(city => city.toLowerCase().startsWith(query.toLowerCase()))
@@ -405,3 +248,5 @@ export default {
     }
   }
 };
+
+module.exports = worker;

@@ -189,13 +189,14 @@ export default {
           version: '1.0.0',
           status: 'running',
           timestamp: new Date().toISOString(),
+          availableCities: Object.keys(citiesDatabase).length,
           apiEndpoint: '/api/',
           documentation: '/api/',
           health: '/api/health',
           examples: {
-            search: '/api/coordinates/search?q=Roma',
+            search: '/api/coordinates/search?q=Milano',
             direct: '/api/coordinates/Milano',
-            reverse: '/api/coordinates/reverse?lat=41.9028&lng=12.4964',
+            reverse: '/api/coordinates/reverse?lat=45.4642&lng=9.1900',
             suggestions: '/api/coordinates/suggestions?q=Rom'
           }
         }), {
@@ -210,7 +211,8 @@ export default {
           status: 'healthy',
           timestamp: new Date().toISOString(),
           version: '1.0.0',
-          environment: 'production'
+          environment: 'production',
+          availableCities: Object.keys(citiesDatabase).length
         }), {
           status: 200,
           headers: corsHeaders
@@ -225,6 +227,8 @@ export default {
           description: 'API REST per ottenere le coordinate geografiche dei comuni italiani',
           status: 'running',
           timestamp: new Date().toISOString(),
+          availableCities: Object.keys(citiesDatabase).length,
+          supportedCities: Object.keys(citiesDatabase),
           endpoints: {
             'GET /api/': 'Informazioni sull\'API',
             'GET /api/health': 'Status dell\'API',
@@ -235,19 +239,19 @@ export default {
           },
           examples: [
             {
-              name: 'Cerca Roma',
-              url: '/api/coordinates/search?q=Roma',
-              description: 'Trova le coordinate di Roma'
+              name: 'Cerca Milano',
+              url: '/api/coordinates/search?q=Milano',
+              description: 'Trova le coordinate di Milano'
             },
             {
-              name: 'Coordinate Milano',
-              url: '/api/coordinates/Milano',
-              description: 'Ottieni direttamente le coordinate di Milano'
+              name: 'Coordinate Napoli',
+              url: '/api/coordinates/Napoli',
+              description: 'Ottieni direttamente le coordinate di Napoli'
             },
             {
-              name: 'Reverse geocoding',
-              url: '/api/coordinates/reverse?lat=41.9028&lng=12.4964',
-              description: 'Trova la località dalle coordinate di Roma'
+              name: 'Reverse geocoding Milano',
+              url: '/api/coordinates/reverse?lat=45.4642&lng=9.1900',
+              description: 'Trova la località dalle coordinate di Milano'
             }
           ]
         }), {
@@ -256,7 +260,7 @@ export default {
         });
       }
 
-      // Coordinates search
+      // Coordinates search - ✅ CORRETTO
       if (url.pathname === '/api/coordinates/search') {
         const query = url.searchParams.get('q');
         if (!query) {
@@ -269,22 +273,26 @@ export default {
           });
         }
 
-        // Simuliamo la ricerca (qui dovresti usare il tuo GeocodingService)
-        const mockResults = [
-          {
-            name: 'Roma',
-            province: 'RM',
-            region: 'Lazio',
-            latitude: 41.9028,
-            longitude: 12.4964,
-            accuracy: 'high'
-          }
-        ];
+        const results = searchCities(query);
+
+        if (results.length === 0) {
+          return new Response(JSON.stringify({
+            query: query,
+            results: [],
+            total: 0,
+            timestamp: new Date().toISOString(),
+            message: 'No cities found matching your query',
+            availableCities: Object.keys(citiesDatabase)
+          }), {
+            status: 404,
+            headers: corsHeaders
+          });
+        }
 
         return new Response(JSON.stringify({
           query: query,
-          results: mockResults,
-          total: mockResults.length,
+          results: results,
+          total: results.length,
           timestamp: new Date().toISOString()
         }), {
           status: 200,
@@ -292,23 +300,32 @@ export default {
         });
       }
 
-      // Direct city lookup
-      if (url.pathname.startsWith('/api/coordinates/') && url.pathname !== '/api/coordinates/search' && url.pathname !== '/api/coordinates/reverse' && url.pathname !== '/api/coordinates/suggestions') {
+      // Direct city lookup - ✅ CORRETTO
+      if (url.pathname.startsWith('/api/coordinates/') && 
+          url.pathname !== '/api/coordinates/search' && 
+          url.pathname !== '/api/coordinates/reverse' && 
+          url.pathname !== '/api/coordinates/suggestions') {
         const cityName = url.pathname.split('/').pop();
+        const normalizedCityName = cityName.toLowerCase();
         
-        // Simuliamo la ricerca diretta
-        const mockResult = {
-          name: cityName,
-          province: 'XX',
-          region: 'Region',
-          latitude: 41.9028,
-          longitude: 12.4964,
-          accuracy: 'high'
-        };
+        const cityData = citiesDatabase[normalizedCityName];
+        
+        if (!cityData) {
+          return new Response(JSON.stringify({
+            error: 'City not found',
+            city: cityName,
+            message: `City "${cityName}" not found in database`,
+            availableCities: Object.keys(citiesDatabase),
+            timestamp: new Date().toISOString()
+          }), {
+            status: 404,
+            headers: corsHeaders
+          });
+        }
 
         return new Response(JSON.stringify({
           city: cityName,
-          result: mockResult,
+          result: cityData,
           timestamp: new Date().toISOString()
         }), {
           status: 200,
@@ -316,7 +333,7 @@ export default {
         });
       }
 
-      // Reverse geocoding
+      // Reverse geocoding - ✅ CORRETTO
       if (url.pathname === '/api/coordinates/reverse') {
         const lat = url.searchParams.get('lat');
         const lng = url.searchParams.get('lng');
@@ -331,19 +348,25 @@ export default {
           });
         }
 
-        // Simuliamo il reverse geocoding
-        const mockResult = {
-          name: 'Roma',
-          province: 'RM',
-          region: 'Lazio',
-          latitude: parseFloat(lat),
-          longitude: parseFloat(lng),
-          accuracy: 'high'
-        };
+        // Validate coordinates
+        const latitude = parseFloat(lat);
+        const longitude = parseFloat(lng);
+        
+        if (isNaN(latitude) || isNaN(longitude)) {
+          return new Response(JSON.stringify({
+            error: 'Invalid coordinates',
+            message: 'Latitude and longitude must be valid numbers'
+          }), {
+            status: 400,
+            headers: corsHeaders
+          });
+        }
+
+        const result = reverseGeocode(lat, lng);
 
         return new Response(JSON.stringify({
-          coordinates: { lat: parseFloat(lat), lng: parseFloat(lng) },
-          result: mockResult,
+          coordinates: { lat: latitude, lng: longitude },
+          result: result,
           timestamp: new Date().toISOString()
         }), {
           status: 200,
@@ -351,7 +374,7 @@ export default {
         });
       }
 
-      // Suggestions
+      // Suggestions - ✅ GIÀ FUNZIONANTE
       if (url.pathname === '/api/coordinates/suggestions') {
         const query = url.searchParams.get('q');
         const limit = parseInt(url.searchParams.get('limit') || '10');
@@ -366,16 +389,16 @@ export default {
           });
         }
 
-        // Simuliamo i suggerimenti
-        const mockSuggestions = [
-          'Roma', 'Romano di Lombardia', 'Romano d\'Ezzelino', 'Romano Canavese'
-        ].filter(city => city.toLowerCase().startsWith(query.toLowerCase()))
-         .slice(0, limit);
+        // Genera suggerimenti dalle città disponibili
+        const suggestions = Object.values(citiesDatabase)
+          .map(city => city.name)
+          .filter(name => name.toLowerCase().startsWith(query.toLowerCase()))
+          .slice(0, limit);
 
         return new Response(JSON.stringify({
           query: query,
-          suggestions: mockSuggestions,
-          total: mockSuggestions.length,
+          suggestions: suggestions,
+          total: suggestions.length,
           timestamp: new Date().toISOString()
         }), {
           status: 200,
@@ -387,7 +410,14 @@ export default {
       return new Response(JSON.stringify({
         error: 'Endpoint not found',
         message: 'The requested endpoint does not exist',
-        availableEndpoints: ['/api/', '/api/health', '/api/coordinates/search', '/api/coordinates/reverse', '/api/coordinates/suggestions']
+        availableEndpoints: [
+          '/api/', 
+          '/api/health', 
+          '/api/coordinates/search', 
+          '/api/coordinates/{city}',
+          '/api/coordinates/reverse', 
+          '/api/coordinates/suggestions'
+        ]
       }), {
         status: 404,
         headers: corsHeaders
@@ -397,7 +427,8 @@ export default {
       console.error('Worker error:', error);
       return new Response(JSON.stringify({
         error: 'Internal server error',
-        message: error.message
+        message: error.message,
+        timestamp: new Date().toISOString()
       }), {
         status: 500,
         headers: corsHeaders
