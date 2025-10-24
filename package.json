@@ -1,7 +1,7 @@
 {
   "name": "api-coordinate",
   "version": "1.0.0",
-  "description": "API REST per trovare le coordinate dei comuni italiani",
+  "description": "API REST per trovare le coordinate dei Comuni della Provincia di Rieti",
   "type": "module",
   "main": "server.js",
   "scripts": {

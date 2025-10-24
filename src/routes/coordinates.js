@@ -19,7 +19,7 @@ const geocodingService = new GeocodingService();
 router.get('/', (req, res) => {
   res.json({
     success: true,
-    message: 'API per le coordinate dei comuni italiani',
+    message: 'API per le coordinate dei Comuni della Provincia di Rieti',
     version: '1.0.0',
     endpoints: {
       'GET /api/coordinates/search': {

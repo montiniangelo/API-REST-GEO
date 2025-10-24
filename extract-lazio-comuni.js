@@ -2,7 +2,7 @@
 import fs from 'fs';
 import https from 'https';
 
-console.log('📥 Scaricamento dataset comuni italiani...');
+console.log('📥 Scaricamento dataset Comuni della Provincia di Rieti...');
 
 const url = 'https://raw.githubusercontent.com/matteocontrini/comuni-json/master/comuni.json';
 

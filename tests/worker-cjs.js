@@ -25,7 +25,7 @@ const worker = {
       // Route principale
       if (url.pathname === '/') {
         return new Response(JSON.stringify({
-          message: 'API Coordinate Comuni Italiani',
+          message: 'API Coordinate Comuni della Provincia di Rieti',
           version: '1.0.0',
           status: 'running',
           timestamp: new Date().toISOString(),
@@ -60,9 +60,9 @@ const worker = {
       // API Info
       if (url.pathname === '/api' || url.pathname === '/api/') {
         return new Response(JSON.stringify({
-          name: 'API Coordinate Comuni Italiani',
+          name: 'API Coordinate Comuni della Provincia di Rieti',
           version: '1.0.0',
-          description: 'API REST per ottenere le coordinate geografiche dei comuni italiani',
+          description: 'API REST per ottenere le coordinate geografiche dei Comuni della Provincia di Rieti',
           status: 'running',
           timestamp: new Date().toISOString(),
           endpoints: {

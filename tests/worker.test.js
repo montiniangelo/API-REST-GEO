@@ -53,7 +53,7 @@ describe('Cloudflare Worker API Tests', () => {
       const data = await response.json();
       
       expect(response.status).toBe(200);
-      expect(data).toHaveProperty('message', 'API Coordinate Comuni Italiani');
+      expect(data).toHaveProperty('message', 'API Coordinate Comuni della Provincia di Rieti');
       expect(data).toHaveProperty('version', '1.0.0');
       expect(data).toHaveProperty('examples');
     });

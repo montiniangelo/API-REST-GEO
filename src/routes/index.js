@@ -10,9 +10,9 @@ const router = express.Router();
  */
 router.get('/', generalRateLimit, (req, res) => {
   res.json({
-    name: 'API Coordinate Comuni Italiani',
+    name: 'API Coordinate Comuni della Provincia di Rieti',
     version: '1.0.0',
-    description: 'API REST per ottenere le coordinate geografiche dei comuni italiani',
+    description: 'API REST per ottenere le coordinate geografiche dei Comuni della Provincia di Rieti',
     author: 'API Coordinate Team',
     status: 'running',
     timestamp: new Date().toISOString(),

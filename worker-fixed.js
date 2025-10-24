@@ -1,4 +1,4 @@
-// Cloudflare Worker CORRETTO per API Coordinate Comuni Italiani
+// Cloudflare Worker CORRETTO per API Coordinate Comuni della Provincia di Rieti
 // Questa versione include dati reali per le principali città italiane
 
 export default {
@@ -185,7 +185,7 @@ export default {
       // Route principale
       if (url.pathname === '/') {
         return new Response(JSON.stringify({
-          message: 'API Coordinate Comuni Italiani',
+          message: 'API Coordinate Comuni della Provincia di Rieti',
           version: '1.0.0',
           status: 'running',
           timestamp: new Date().toISOString(),
@@ -222,9 +222,9 @@ export default {
       // API Info
       if (url.pathname === '/api' || url.pathname === '/api/') {
         return new Response(JSON.stringify({
-          name: 'API Coordinate Comuni Italiani',
+          name: 'API Coordinate Comuni della Provincia di Rieti',
           version: '1.0.0',
-          description: 'API REST per ottenere le coordinate geografiche dei comuni italiani',
+          description: 'API REST per ottenere le coordinate geografiche dei Comuni della Provincia di Rieti',
           status: 'running',
           timestamp: new Date().toISOString(),
           availableCities: Object.keys(citiesDatabase).length,

@@ -1,6 +1,6 @@
-# 🌍 Coordinate Comuni Italiani - Web App
+# 🌍 Coordinate Comuni della Provincia di Rieti - Web App
 
-Una web app semplice e moderna per ottenere le coordinate geografiche (latitudine e longitudine) dei comuni italiani.
+Una web app semplice e moderna per ottenere le coordinate geografiche (latitudine e longitudine) dei Comuni della Provincia di Rieti.
 
 ## 🚀 Caratteristiche
 

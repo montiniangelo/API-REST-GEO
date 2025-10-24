@@ -37,7 +37,7 @@ const mockEnv = {};
 
 // Import del worker code come funzione
 const workerCode = `
-// Database completo dei comuni italiani - Include tutte le principali città e tutti i comuni del Lazio
+// Database completo dei Comuni della Provincia di Rieti - Include tutte le principali città e tutti i comuni del Lazio
 const citiesDatabase = {
   // PRINCIPALI CITTÀ ITALIANE
   'roma': {
@@ -499,7 +499,7 @@ return {
       // Route principale
       if (url.pathname === '/') {
         return new Response(JSON.stringify({
-          message: 'API Coordinate Comuni Italiani',
+          message: 'API Coordinate Comuni della Provincia di Rieti',
           version: '1.0.0',
           status: 'running',
           timestamp: new Date().toISOString(),
@@ -516,9 +516,9 @@ return {
       // API Info
       if (url.pathname === '/api' || url.pathname === '/api/') {
         return new Response(JSON.stringify({
-          name: 'API Coordinate Comuni Italiani',
+          name: 'API Coordinate Comuni della Provincia di Rieti',
           version: '1.0.0',
-          description: 'API REST per ottenere le coordinate geografiche dei comuni italiani',
+          description: 'API REST per ottenere le coordinate geografiche dei Comuni della Provincia di Rieti',
           status: 'running',
           timestamp: new Date().toISOString(),
           availableCities: Object.keys(citiesDatabase).length,

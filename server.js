@@ -55,7 +55,7 @@ app.use(generalRateLimit);
 // Endpoint root
 app.get('/', (req, res) => {
   res.json({
-    message: 'API Coordinate Comuni Italiani',
+    message: 'API Coordinate Comuni della Provincia di Rieti',
     version: '1.0.0',
     status: 'running',
     timestamp: new Date().toISOString(),

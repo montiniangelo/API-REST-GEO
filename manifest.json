@@ -1,7 +1,7 @@
 {
-  "name": "Coordinate Comuni Italiani",
+  "name": "Coordinate Comuni della Provincia di Rieti",
   "short_name": "Coordinate",
-  "description": "Trova le coordinate geografiche dei comuni italiani",
+  "description": "Trova le coordinate geografiche dei Comuni della Provincia di Rieti",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#667eea",
