@@ -735,11 +735,20 @@ const workerHandler = {
   async fetch(request, env) {
     const url = new URL(request.url);
     
+    // Configurazione API Key per test
+    const VALID_API_KEY = env?.API_KEY || 'rieti-api-2024-secure-key-73-comuni';
+    
+    // Funzione per validare API key
+    const validateApiKey = () => {
+      const apiKey = request.headers.get('X-API-Key') || request.headers.get('x-api-key');
+      return apiKey === VALID_API_KEY;
+    };
+    
     const headers = {
       'Content-Type': 'application/json; charset=utf-8',
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Allow-Headers': 'Content-Type, X-API-Key',
       'Cache-Control': 'public, max-age=3600'
     };
 
@@ -748,11 +757,31 @@ const workerHandler = {
     }
 
     try {
+      // Controllo API Key per tutte le route (eccetto la route informazioni)
+      if (url.pathname !== '/api' && url.pathname !== '/api/' && !validateApiKey()) {
+        return new Response(JSON.stringify({
+          error: 'Unauthorized',
+          message: 'Missing or invalid API key. Please provide a valid X-API-Key header.',
+          statusCode: 401,
+          success: false
+        }), { 
+          status: 401, 
+          headers: {
+            ...headers,
+            'WWW-Authenticate': 'ApiKey realm="API Coordinate Rieti"'
+          }
+        });
+      }
       if (url.pathname === '/api' || url.pathname === '/api/') {
         return new Response(JSON.stringify({
           name: "API Coordinate Comuni Provincia di Rieti",
           totalCities: Object.keys(comuniRietiDatabase).length,
           supportedCities: Object.keys(comuniRietiDatabase),
+          authentication: {
+            type: "API Key",
+            header: "X-API-Key",
+            required: "All endpoints except /api/ require valid API key"
+          },
           success: true
         }), { status: 200, headers });
       }

@@ -2,10 +2,63 @@ const { workerHandler, comuniRietiDatabase } = require('./worker-rieti-cjs.cjs')
 
 describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
   
+  // API Key per i test
+  const API_KEY = 'rieti-api-2024-secure-key-73-comuni';
+  
+  // Helper per creare request con API key
+  const createRequestWithApiKey = (url) => {
+    const request = new Request(url);
+    request.headers.set('X-API-Key', API_KEY);
+    return request;
+  };
+  
+  describe('🔐 AUTENTICAZIONE API KEY', () => {
+    
+    test('Accesso senza API key - deve restituire 401', async () => {
+      const request = new Request('https://test.com/api/coordinates/search?q=rieti');
+      const response = await workerHandler.fetch(request, {});
+      const data = await response.json();
+      
+      expect(response.status).toBe(401);
+      expect(data.error).toBe('Unauthorized');
+      expect(data.success).toBe(false);
+    });
+    
+    test('Accesso con API key invalida - deve restituire 401', async () => {
+      const request = new Request('https://test.com/api/coordinates/search?q=rieti');
+      request.headers.set('X-API-Key', 'invalid-key');
+      const response = await workerHandler.fetch(request, {});
+      const data = await response.json();
+      
+      expect(response.status).toBe(401);
+      expect(data.error).toBe('Unauthorized');
+      expect(data.success).toBe(false);
+    });
+    
+    test('Accesso alla route /api senza API key - deve funzionare', async () => {
+      const request = new Request('https://test.com/api/');
+      const response = await workerHandler.fetch(request, {});
+      const data = await response.json();
+      
+      expect(response.status).toBe(200);
+      expect(data.success).toBe(true);
+      expect(data.authentication).toBeDefined();
+    });
+    
+    test('Accesso con API key valida - deve funzionare', async () => {
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=rieti');
+      const response = await workerHandler.fetch(request, {});
+      const data = await response.json();
+      
+      expect(response.status).toBe(200);
+      expect(data.success).toBe(true);
+    });
+  });
+
   describe('🏛️ PROVINCIA DI RIETI - Test sui principali comuni', () => {
     
     test('Cerca Rieti - capoluogo di provincia', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=rieti');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=rieti');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -19,7 +72,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Accesso diretto Cittaducale', async () => {
-      const request = new Request('https://test.com/api/coordinates/cittaducale');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/cittaducale');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -30,7 +83,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Cerca nome composto: "Fara in Sabina"', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=fara in sabina');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=fara in sabina');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -42,7 +95,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Ricerca parziale: "Fara"', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=fara');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=fara');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -56,7 +109,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Cerca Amatrice - comune storico', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=amatrice');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=amatrice');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -68,7 +121,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Cerca Leonessa - comune montano', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=leonessa');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=leonessa');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -81,7 +134,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Cerca Poggio Mirteto - comune della Sabina', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=poggio mirteto');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=poggio mirteto');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -92,7 +145,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Cerca comune piccolo: Marcetelli (98 abitanti)', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=marcetelli');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=marcetelli');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -103,7 +156,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Cerca comuni con nomi composti che iniziano per "Monte"', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=monte');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=monte');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -119,7 +172,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Cerca comuni con "Poggio" nel nome', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=poggio');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=poggio');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -138,7 +191,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
   describe('🔍 Test Ricerca Avanzata e Funzionalità', () => {
     
     test('Ricerca case-insensitive', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=RIETI');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=RIETI');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -148,7 +201,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Reverse geocoding - coordinate di Rieti', async () => {
-      const request = new Request('https://test.com/api/coordinates/reverse?lat=42.4040&lng=12.8628');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/reverse?lat=42.4040&lng=12.8628');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -158,7 +211,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Reverse geocoding - coordinate di Cittaducale', async () => {
-      const request = new Request('https://test.com/api/coordinates/reverse?lat=42.3822&lng=12.9469');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/reverse?lat=42.3822&lng=12.9469');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -168,7 +221,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Conteggio comuni disponibili - deve essere 73', async () => {
-      const request = new Request('https://test.com/api/');
+      const request = createRequestWithApiKey('https://test.com/api/');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -201,7 +254,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
   describe('❌ Test Errori e Casi Limite', () => {
     
     test('Comune non esistente nella Provincia di Rieti', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=Roma');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=Roma');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -211,7 +264,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Accesso diretto a comune non esistente', async () => {
-      const request = new Request('https://test.com/api/coordinates/Milano');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/Milano');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -222,7 +275,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Reverse geocoding coordinate non valide', async () => {
-      const request = new Request('https://test.com/api/coordinates/reverse?lat=invalid&lng=invalid');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/reverse?lat=invalid&lng=invalid');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -231,7 +284,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Query vuota', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -240,7 +293,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Verifica risoluzione bug falsi positivi - nessun match per "in"', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=comunechiaramenteinesistentexyz123');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=comunechiaramenteinesistentexyz123');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -251,7 +304,7 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
     });
 
     test('Verifica che "Fara in Sabina" funzioni correttamente con query valide', async () => {
-      const request = new Request('https://test.com/api/coordinates/search?q=fara in sabina');
+      const request = createRequestWithApiKey('https://test.com/api/coordinates/search?q=fara in sabina');
       const response = await workerHandler.fetch(request, {});
       const data = await response.json();
       
@@ -262,12 +315,12 @@ describe('API Coordinate Comuni Provincia di Rieti - Test Completi', () => {
 
     test('Verifica che comuni di altre province non siano accessibili', async () => {
       // Testa che Roma (provincia di Roma) non sia nel database
-      const requestRoma = new Request('https://test.com/api/coordinates/search?q=roma');
+      const requestRoma = createRequestWithApiKey('https://test.com/api/coordinates/search?q=roma');
       const responseRoma = await workerHandler.fetch(requestRoma, {});
       expect(responseRoma.status).toBe(404);
       
       // Testa che Latina (provincia di Latina) non sia nel database  
-      const requestLatina = new Request('https://test.com/api/coordinates/search?q=latina');
+      const requestLatina = createRequestWithApiKey('https://test.com/api/coordinates/search?q=latina');
       const responseLatina = await workerHandler.fetch(requestLatina, {});
       expect(responseLatina.status).toBe(404);
     });

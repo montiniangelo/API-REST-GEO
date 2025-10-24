@@ -7,6 +7,9 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     
+    // Configurazione API Key
+    const VALID_API_KEY = env?.API_KEY || 'rieti-api-2024-secure-key-73-comuni';
+    
     // Database completo dei 73 comuni della Provincia di Rieti
     const citiesDatabase = comuniRietiDatabase;
 
@@ -90,12 +93,18 @@ export default {
       return results.sort((a, b) => a.distance - b.distance);
     };
 
+    // Funzione per validare API key
+    const validateApiKey = () => {
+      const apiKey = request.headers.get('X-API-Key') || request.headers.get('x-api-key');
+      return apiKey === VALID_API_KEY;
+    };
+
     // Headers per CORS e sicurezza
     const headers = {
       'Content-Type': 'application/json; charset=utf-8',
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Allow-Headers': 'Content-Type, X-API-Key',
       'Cache-Control': 'public, max-age=3600',
       'X-Powered-By': 'API-Coordinate-Rieti-v1.0'
     };
@@ -106,6 +115,21 @@ export default {
     }
 
     try {
+      // Controllo API Key per tutte le route (eccetto la route informazioni)
+      if (url.pathname !== '/api' && url.pathname !== '/api/' && !validateApiKey()) {
+        return new Response(JSON.stringify({
+          error: 'Unauthorized',
+          message: 'Missing or invalid API key. Please provide a valid X-API-Key header.',
+          statusCode: 401,
+          success: false
+        }), { 
+          status: 401, 
+          headers: {
+            ...headers,
+            'WWW-Authenticate': 'ApiKey realm="API Coordinate Rieti"'
+          }
+        });
+      }
       // Route principale - informazioni API
       if (url.pathname === '/api' || url.pathname === '/api/') {
         const apiInfo = {
@@ -114,6 +138,12 @@ export default {
           description: "API REST per ottenere coordinate dei 73 comuni della Provincia di Rieti",
           totalCities: Object.keys(citiesDatabase).length,
           supportedCities: Object.keys(citiesDatabase),
+          authentication: {
+            type: "API Key",
+            header: "X-API-Key",
+            required: "All endpoints except /api/ require valid API key",
+            example: "X-API-Key: your-api-key-here"
+          },
           endpoints: {
             search: "/api/coordinates/search?q={query}",
             direct: "/api/coordinates/{cityname}",
