@@ -1,0 +1,4257 @@
+{
+  "regione": "Lazio",
+  "totaleComuni": 378,
+  "province": {
+    "Rieti": [
+      "Accumoli",
+      "Amatrice",
+      "Antrodoco",
+      "Ascrea",
+      "Belmonte in Sabina",
+      "Borbona",
+      "Borgo Velino",
+      "Borgorose",
+      "Cantalice",
+      "Cantalupo in Sabina",
+      "Casaprota",
+      "Casperia",
+      "Castel di Tora",
+      "Castel Sant'Angelo",
+      "Castelnuovo di Farfa",
+      "Cittaducale",
+      "Cittareale",
+      "Collalto Sabino",
+      "Colle di Tora",
+      "Collegiove",
+      "Collevecchio",
+      "Colli sul Velino",
+      "Concerviano",
+      "Configni",
+      "Contigliano",
+      "Cottanello",
+      "Fara in Sabina",
+      "Fiamignano",
+      "Forano",
+      "Frasso Sabino",
+      "Greccio",
+      "Labro",
+      "Leonessa",
+      "Longone Sabino",
+      "Magliano Sabina",
+      "Marcetelli",
+      "Micigliano",
+      "Mompeo",
+      "Montasola",
+      "Monte San Giovanni in Sabina",
+      "Montebuono",
+      "Monteleone Sabino",
+      "Montenero Sabino",
+      "Montopoli di Sabina",
+      "Morro Reatino",
+      "Nespolo",
+      "Orvinio",
+      "Paganico Sabino",
+      "Pescorocchiano",
+      "Petrella Salto",
+      "Poggio Bustone",
+      "Poggio Catino",
+      "Poggio Mirteto",
+      "Poggio Moiano",
+      "Poggio Nativo",
+      "Poggio San Lorenzo",
+      "Posta",
+      "Pozzaglia Sabina",
+      "Rieti",
+      "Rivodutri",
+      "Rocca Sinibalda",
+      "Roccantica",
+      "Salisano",
+      "Scandriglia",
+      "Selci",
+      "Stimigliano",
+      "Tarano",
+      "Toffia",
+      "Torri in Sabina",
+      "Torricella in Sabina",
+      "Turania",
+      "Vacone",
+      "Varco Sabino"
+    ],
+    "Frosinone": [
+      "Acquafondata",
+      "Acuto",
+      "Alatri",
+      "Alvito",
+      "Amaseno",
+      "Anagni",
+      "Aquino",
+      "Arce",
+      "Arnara",
+      "Arpino",
+      "Atina",
+      "Ausonia",
+      "Belmonte Castello",
+      "Boville Ernica",
+      "Broccostella",
+      "Campoli Appennino",
+      "Casalattico",
+      "Casalvieri",
+      "Cassino",
+      "Castelliri",
+      "Castelnuovo Parano",
+      "Castro dei Volsci",
+      "Castrocielo",
+      "Ceccano",
+      "Ceprano",
+      "Cervaro",
+      "Colfelice",
+      "Colle San Magno",
+      "Collepardo",
+      "Coreno Ausonio",
+      "Esperia",
+      "Falvaterra",
+      "Ferentino",
+      "Filettino",
+      "Fiuggi",
+      "Fontana Liri",
+      "Fontechiari",
+      "Frosinone",
+      "Fumone",
+      "Gallinaro",
+      "Giuliano di Roma",
+      "Guarcino",
+      "Isola del Liri",
+      "Monte San Giovanni Campano",
+      "Morolo",
+      "Paliano",
+      "Pastena",
+      "Patrica",
+      "Pescosolido",
+      "Picinisco",
+      "Pico",
+      "Piedimonte San Germano",
+      "Piglio",
+      "Pignataro Interamna",
+      "Pofi",
+      "Pontecorvo",
+      "Posta Fibreno",
+      "Ripi",
+      "Rocca d'Arce",
+      "Roccasecca",
+      "San Biagio Saracinisco",
+      "San Donato Val di Comino",
+      "San Giorgio a Liri",
+      "San Giovanni Incarico",
+      "San Vittore del Lazio",
+      "Sant'Ambrogio sul Garigliano",
+      "Sant'Andrea del Garigliano",
+      "Sant'Apollinare",
+      "Sant'Elia Fiumerapido",
+      "Santopadre",
+      "Serrone",
+      "Settefrati",
+      "Sgurgola",
+      "Sora",
+      "Strangolagalli",
+      "Supino",
+      "Terelle",
+      "Torre Cajetani",
+      "Torrice",
+      "Trevi nel Lazio",
+      "Trivigliano",
+      "Vallecorsa",
+      "Vallemaio",
+      "Vallerotonda",
+      "Veroli",
+      "Vicalvi",
+      "Vico nel Lazio",
+      "Villa Latina",
+      "Villa Santa Lucia",
+      "Villa Santo Stefano",
+      "Viticuso"
+    ],
+    "Viterbo": [
+      "Acquapendente",
+      "Arlena di Castro",
+      "Bagnoregio",
+      "Barbarano Romano",
+      "Bassano in Teverina",
+      "Bassano Romano",
+      "Blera",
+      "Bolsena",
+      "Bomarzo",
+      "Calcata",
+      "Canepina",
+      "Canino",
+      "Capodimonte",
+      "Capranica",
+      "Caprarola",
+      "Carbognano",
+      "Castel Sant'Elia",
+      "Castiglione in Teverina",
+      "Celleno",
+      "Cellere",
+      "Civita Castellana",
+      "Civitella d'Agliano",
+      "Corchiano",
+      "Fabrica di Roma",
+      "Faleria",
+      "Farnese",
+      "Gallese",
+      "Gradoli",
+      "Graffignano",
+      "Grotte di Castro",
+      "Ischia di Castro",
+      "Latera",
+      "Lubriano",
+      "Marta",
+      "Montalto di Castro",
+      "Monte Romano",
+      "Montefiascone",
+      "Monterosi",
+      "Nepi",
+      "Onano",
+      "Oriolo Romano",
+      "Orte",
+      "Piansano",
+      "Proceno",
+      "Ronciglione",
+      "San Lorenzo Nuovo",
+      "Soriano nel Cimino",
+      "Sutri",
+      "Tarquinia",
+      "Tessennano",
+      "Tuscania",
+      "Valentano",
+      "Vallerano",
+      "Vasanello",
+      "Vejano",
+      "Vetralla",
+      "Vignanello",
+      "Villa San Giovanni in Tuscia",
+      "Viterbo",
+      "Vitorchiano"
+    ],
+    "Roma": [
+      "Affile",
+      "Agosta",
+      "Albano Laziale",
+      "Allumiere",
+      "Anguillara Sabazia",
+      "Anticoli Corrado",
+      "Anzio",
+      "Arcinazzo Romano",
+      "Ardea",
+      "Ariccia",
+      "Arsoli",
+      "Artena",
+      "Bellegra",
+      "Bracciano",
+      "Camerata Nuova",
+      "Campagnano di Roma",
+      "Canale Monterano",
+      "Canterano",
+      "Capena",
+      "Capranica Prenestina",
+      "Carpineto Romano",
+      "Casape",
+      "Castel Gandolfo",
+      "Castel Madama",
+      "Castel San Pietro Romano",
+      "Castelnuovo di Porto",
+      "Cave",
+      "Cerreto Laziale",
+      "Cervara di Roma",
+      "Cerveteri",
+      "Ciampino",
+      "Ciciliano",
+      "Cineto Romano",
+      "Civitavecchia",
+      "Civitella San Paolo",
+      "Colleferro",
+      "Colonna",
+      "Fiano Romano",
+      "Filacciano",
+      "Fiumicino",
+      "Fonte Nuova",
+      "Formello",
+      "Frascati",
+      "Gallicano nel Lazio",
+      "Gavignano",
+      "Genazzano",
+      "Genzano di Roma",
+      "Gerano",
+      "Gorga",
+      "Grottaferrata",
+      "Guidonia Montecelio",
+      "Jenne",
+      "Labico",
+      "Ladispoli",
+      "Lanuvio",
+      "Lariano",
+      "Licenza",
+      "Magliano Romano",
+      "Mandela",
+      "Manziana",
+      "Marano Equo",
+      "Marcellina",
+      "Marino",
+      "Mazzano Romano",
+      "Mentana",
+      "Monte Compatri",
+      "Monte Porzio Catone",
+      "Monteflavio",
+      "Montelanico",
+      "Montelibretti",
+      "Monterotondo",
+      "Montorio Romano",
+      "Moricone",
+      "Morlupo",
+      "Nazzano",
+      "Nemi",
+      "Nerola",
+      "Nettuno",
+      "Olevano Romano",
+      "Palestrina",
+      "Palombara Sabina",
+      "Percile",
+      "Pisoniano",
+      "Poli",
+      "Pomezia",
+      "Ponzano Romano",
+      "Riano",
+      "Rignano Flaminio",
+      "Riofreddo",
+      "Rocca Canterano",
+      "Rocca di Cave",
+      "Rocca di Papa",
+      "Rocca Priora",
+      "Rocca Santo Stefano",
+      "Roccagiovine",
+      "Roiate",
+      "Roma",
+      "Roviano",
+      "Sacrofano",
+      "Sambuci",
+      "San Cesareo",
+      "San Gregorio da Sassola",
+      "San Polo dei Cavalieri",
+      "San Vito Romano",
+      "Sant'Angelo Romano",
+      "Sant'Oreste",
+      "Santa Marinella",
+      "Saracinesco",
+      "Segni",
+      "Subiaco",
+      "Tivoli",
+      "Tolfa",
+      "Torrita Tiberina",
+      "Trevignano Romano",
+      "Vallepietra",
+      "Vallinfreda",
+      "Valmontone",
+      "Velletri",
+      "Vicovaro",
+      "Vivaro Romano",
+      "Zagarolo"
+    ],
+    "Latina": [
+      "Aprilia",
+      "Bassiano",
+      "Campodimele",
+      "Castelforte",
+      "Cisterna di Latina",
+      "Cori",
+      "Fondi",
+      "Formia",
+      "Gaeta",
+      "Itri",
+      "Latina",
+      "Lenola",
+      "Maenza",
+      "Minturno",
+      "Monte San Biagio",
+      "Norma",
+      "Pontinia",
+      "Ponza",
+      "Priverno",
+      "Prossedi",
+      "Rocca Massima",
+      "Roccagorga",
+      "Roccasecca dei Volsci",
+      "Sabaudia",
+      "San Felice Circeo",
+      "Santi Cosma e Damiano",
+      "Sermoneta",
+      "Sezze",
+      "Sonnino",
+      "Sperlonga",
+      "Spigno Saturnia",
+      "Terracina",
+      "Ventotene"
+    ]
+  },
+  "comuni": [
+    {
+      "nome": "Accumoli",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02011"
+      ],
+      "popolazione": 653,
+      "codiceCatastale": "A019"
+    },
+    {
+      "nome": "Acquafondata",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 282,
+      "codiceCatastale": "A032"
+    },
+    {
+      "nome": "Acquapendente",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01021"
+      ],
+      "popolazione": 5655,
+      "codiceCatastale": "A040"
+    },
+    {
+      "nome": "Acuto",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03010"
+      ],
+      "popolazione": 1910,
+      "codiceCatastale": "A054"
+    },
+    {
+      "nome": "Affile",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00021"
+      ],
+      "popolazione": 1552,
+      "codiceCatastale": "A062"
+    },
+    {
+      "nome": "Agosta",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 1760,
+      "codiceCatastale": "A084"
+    },
+    {
+      "nome": "Alatri",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03011"
+      ],
+      "popolazione": 28609,
+      "codiceCatastale": "A123"
+    },
+    {
+      "nome": "Albano Laziale",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00041"
+      ],
+      "popolazione": 38433,
+      "codiceCatastale": "A132"
+    },
+    {
+      "nome": "Allumiere",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00051"
+      ],
+      "popolazione": 4133,
+      "codiceCatastale": "A210"
+    },
+    {
+      "nome": "Alvito",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03041"
+      ],
+      "popolazione": 2852,
+      "codiceCatastale": "A244"
+    },
+    {
+      "nome": "Amaseno",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03021"
+      ],
+      "popolazione": 4314,
+      "codiceCatastale": "A256"
+    },
+    {
+      "nome": "Amatrice",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02012"
+      ],
+      "popolazione": 2646,
+      "codiceCatastale": "A258"
+    },
+    {
+      "nome": "Anagni",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03012"
+      ],
+      "popolazione": 21441,
+      "codiceCatastale": "A269"
+    },
+    {
+      "nome": "Anguillara Sabazia",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00061"
+      ],
+      "popolazione": 18575,
+      "codiceCatastale": "A297"
+    },
+    {
+      "nome": "Anticoli Corrado",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00022"
+      ],
+      "popolazione": 942,
+      "codiceCatastale": "A309"
+    },
+    {
+      "nome": "Antrodoco",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02013"
+      ],
+      "popolazione": 2704,
+      "codiceCatastale": "A315"
+    },
+    {
+      "nome": "Anzio",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00042"
+      ],
+      "popolazione": 49731,
+      "codiceCatastale": "A323"
+    },
+    {
+      "nome": "Aprilia",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04011"
+      ],
+      "popolazione": 66979,
+      "codiceCatastale": "A341"
+    },
+    {
+      "nome": "Aquino",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03031"
+      ],
+      "popolazione": 5309,
+      "codiceCatastale": "A348"
+    },
+    {
+      "nome": "Arce",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03032"
+      ],
+      "popolazione": 5783,
+      "codiceCatastale": "A363"
+    },
+    {
+      "nome": "Arcinazzo Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 1394,
+      "codiceCatastale": "A370"
+    },
+    {
+      "nome": "Ardea",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00040"
+      ],
+      "popolazione": 44202,
+      "codiceCatastale": "M213"
+    },
+    {
+      "nome": "Ariccia",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00072"
+      ],
+      "popolazione": 18311,
+      "codiceCatastale": "A401"
+    },
+    {
+      "nome": "Arlena di Castro",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 886,
+      "codiceCatastale": "A412"
+    },
+    {
+      "nome": "Arnara",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03020"
+      ],
+      "popolazione": 2379,
+      "codiceCatastale": "A421"
+    },
+    {
+      "nome": "Arpino",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03033"
+      ],
+      "popolazione": 7386,
+      "codiceCatastale": "A433"
+    },
+    {
+      "nome": "Arsoli",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00023"
+      ],
+      "popolazione": 1647,
+      "codiceCatastale": "A446"
+    },
+    {
+      "nome": "Artena",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00031"
+      ],
+      "popolazione": 13665,
+      "codiceCatastale": "A449"
+    },
+    {
+      "nome": "Ascrea",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02020"
+      ],
+      "popolazione": 266,
+      "codiceCatastale": "A464"
+    },
+    {
+      "nome": "Atina",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03042"
+      ],
+      "popolazione": 4461,
+      "codiceCatastale": "A486"
+    },
+    {
+      "nome": "Ausonia",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 2650,
+      "codiceCatastale": "A502"
+    },
+    {
+      "nome": "Bagnoregio",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01022"
+      ],
+      "popolazione": 3674,
+      "codiceCatastale": "A577"
+    },
+    {
+      "nome": "Barbarano Romano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 1085,
+      "codiceCatastale": "A628"
+    },
+    {
+      "nome": "Bassano in Teverina",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01030"
+      ],
+      "popolazione": 1277,
+      "codiceCatastale": "A706"
+    },
+    {
+      "nome": "Bassano Romano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01030"
+      ],
+      "popolazione": 4834,
+      "codiceCatastale": "A704"
+    },
+    {
+      "nome": "Bassiano",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04010"
+      ],
+      "popolazione": 1580,
+      "codiceCatastale": "A707"
+    },
+    {
+      "nome": "Bellegra",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 2948,
+      "codiceCatastale": "A749"
+    },
+    {
+      "nome": "Belmonte Castello",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 778,
+      "codiceCatastale": "A763"
+    },
+    {
+      "nome": "Belmonte in Sabina",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02020"
+      ],
+      "popolazione": 649,
+      "codiceCatastale": "A765"
+    },
+    {
+      "nome": "Blera",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 3356,
+      "codiceCatastale": "A857"
+    },
+    {
+      "nome": "Bolsena",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01023"
+      ],
+      "popolazione": 4137,
+      "codiceCatastale": "A949"
+    },
+    {
+      "nome": "Bomarzo",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01020"
+      ],
+      "popolazione": 1814,
+      "codiceCatastale": "A955"
+    },
+    {
+      "nome": "Borbona",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02010"
+      ],
+      "popolazione": 650,
+      "codiceCatastale": "A981"
+    },
+    {
+      "nome": "Borgo Velino",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02010"
+      ],
+      "popolazione": 990,
+      "codiceCatastale": "A996"
+    },
+    {
+      "nome": "Borgorose",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02021"
+      ],
+      "popolazione": 4615,
+      "codiceCatastale": "B008"
+    },
+    {
+      "nome": "Boville Ernica",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03022"
+      ],
+      "popolazione": 8811,
+      "codiceCatastale": "A720"
+    },
+    {
+      "nome": "Bracciano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00062"
+      ],
+      "popolazione": 18549,
+      "codiceCatastale": "B114"
+    },
+    {
+      "nome": "Broccostella",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 2807,
+      "codiceCatastale": "B195"
+    },
+    {
+      "nome": "Calcata",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01030"
+      ],
+      "popolazione": 905,
+      "codiceCatastale": "B388"
+    },
+    {
+      "nome": "Camerata Nuova",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 460,
+      "codiceCatastale": "B472"
+    },
+    {
+      "nome": "Campagnano di Roma",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00063"
+      ],
+      "popolazione": 11107,
+      "codiceCatastale": "B496"
+    },
+    {
+      "nome": "Campodimele",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04020"
+      ],
+      "popolazione": 638,
+      "codiceCatastale": "B527"
+    },
+    {
+      "nome": "Campoli Appennino",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 1749,
+      "codiceCatastale": "B543"
+    },
+    {
+      "nome": "Canale Monterano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 4071,
+      "codiceCatastale": "B576"
+    },
+    {
+      "nome": "Canepina",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01030"
+      ],
+      "popolazione": 3149,
+      "codiceCatastale": "B597"
+    },
+    {
+      "nome": "Canino",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01011"
+      ],
+      "popolazione": 5270,
+      "codiceCatastale": "B604"
+    },
+    {
+      "nome": "Cantalice",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02014"
+      ],
+      "popolazione": 2726,
+      "codiceCatastale": "B627"
+    },
+    {
+      "nome": "Cantalupo in Sabina",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 1736,
+      "codiceCatastale": "B631"
+    },
+    {
+      "nome": "Canterano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 359,
+      "codiceCatastale": "B635"
+    },
+    {
+      "nome": "Capena",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 9488,
+      "codiceCatastale": "B649"
+    },
+    {
+      "nome": "Capodimonte",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 1741,
+      "codiceCatastale": "B663"
+    },
+    {
+      "nome": "Capranica",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01012"
+      ],
+      "popolazione": 6644,
+      "codiceCatastale": "B688"
+    },
+    {
+      "nome": "Capranica Prenestina",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 330,
+      "codiceCatastale": "B687"
+    },
+    {
+      "nome": "Caprarola",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01032"
+      ],
+      "popolazione": 5345,
+      "codiceCatastale": "B691"
+    },
+    {
+      "nome": "Carbognano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01030"
+      ],
+      "popolazione": 2042,
+      "codiceCatastale": "B735"
+    },
+    {
+      "nome": "Carpineto Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00032"
+      ],
+      "popolazione": 4649,
+      "codiceCatastale": "B828"
+    },
+    {
+      "nome": "Casalattico",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 641,
+      "codiceCatastale": "B862"
+    },
+    {
+      "nome": "Casalvieri",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03034"
+      ],
+      "popolazione": 2867,
+      "codiceCatastale": "B919"
+    },
+    {
+      "nome": "Casape",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00010"
+      ],
+      "popolazione": 737,
+      "codiceCatastale": "B932"
+    },
+    {
+      "nome": "Casaprota",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02030"
+      ],
+      "popolazione": 723,
+      "codiceCatastale": "B934"
+    },
+    {
+      "nome": "Casperia",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02041"
+      ],
+      "popolazione": 1231,
+      "codiceCatastale": "A472"
+    },
+    {
+      "nome": "Cassino",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03043"
+      ],
+      "popolazione": 33658,
+      "codiceCatastale": "C034"
+    },
+    {
+      "nome": "Castel di Tora",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02020"
+      ],
+      "popolazione": 299,
+      "codiceCatastale": "C098"
+    },
+    {
+      "nome": "Castel Gandolfo",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00073"
+      ],
+      "popolazione": 8782,
+      "codiceCatastale": "C116"
+    },
+    {
+      "nome": "Castel Madama",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00024"
+      ],
+      "popolazione": 7328,
+      "codiceCatastale": "C203"
+    },
+    {
+      "nome": "Castel San Pietro Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 855,
+      "codiceCatastale": "C266"
+    },
+    {
+      "nome": "Castel Sant'Angelo",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02010"
+      ],
+      "popolazione": 1289,
+      "codiceCatastale": "C268"
+    },
+    {
+      "nome": "Castel Sant'Elia",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01030"
+      ],
+      "popolazione": 2558,
+      "codiceCatastale": "C269"
+    },
+    {
+      "nome": "Castelforte",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04021"
+      ],
+      "popolazione": 4401,
+      "codiceCatastale": "C104"
+    },
+    {
+      "nome": "Castelliri",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 3533,
+      "codiceCatastale": "C177"
+    },
+    {
+      "nome": "Castelnuovo di Farfa",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02031"
+      ],
+      "popolazione": 1047,
+      "codiceCatastale": "C224"
+    },
+    {
+      "nome": "Castelnuovo di Porto",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 8059,
+      "codiceCatastale": "C237"
+    },
+    {
+      "nome": "Castelnuovo Parano",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 902,
+      "codiceCatastale": "C223"
+    },
+    {
+      "nome": "Castiglione in Teverina",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01024"
+      ],
+      "popolazione": 2385,
+      "codiceCatastale": "C315"
+    },
+    {
+      "nome": "Castro dei Volsci",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03020"
+      ],
+      "popolazione": 4903,
+      "codiceCatastale": "C338"
+    },
+    {
+      "nome": "Castrocielo",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 3969,
+      "codiceCatastale": "C340"
+    },
+    {
+      "nome": "Cave",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00033"
+      ],
+      "popolazione": 10421,
+      "codiceCatastale": "C390"
+    },
+    {
+      "nome": "Ceccano",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03023"
+      ],
+      "popolazione": 23098,
+      "codiceCatastale": "C413"
+    },
+    {
+      "nome": "Celleno",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01020"
+      ],
+      "popolazione": 1343,
+      "codiceCatastale": "C446"
+    },
+    {
+      "nome": "Cellere",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 1230,
+      "codiceCatastale": "C447"
+    },
+    {
+      "nome": "Ceprano",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03024"
+      ],
+      "popolazione": 8740,
+      "codiceCatastale": "C479"
+    },
+    {
+      "nome": "Cerreto Laziale",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 1192,
+      "codiceCatastale": "C518"
+    },
+    {
+      "nome": "Cervara di Roma",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 472,
+      "codiceCatastale": "C543"
+    },
+    {
+      "nome": "Cervaro",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03044"
+      ],
+      "popolazione": 7744,
+      "codiceCatastale": "C545"
+    },
+    {
+      "nome": "Cerveteri",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00052"
+      ],
+      "popolazione": 35207,
+      "codiceCatastale": "C552"
+    },
+    {
+      "nome": "Ciampino",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00043"
+      ],
+      "popolazione": 37235,
+      "codiceCatastale": "M272"
+    },
+    {
+      "nome": "Ciciliano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 1353,
+      "codiceCatastale": "C677"
+    },
+    {
+      "nome": "Cineto Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 641,
+      "codiceCatastale": "C702"
+    },
+    {
+      "nome": "Cisterna di Latina",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04012"
+      ],
+      "popolazione": 35551,
+      "codiceCatastale": "C740"
+    },
+    {
+      "nome": "Cittaducale",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02015"
+      ],
+      "popolazione": 6900,
+      "codiceCatastale": "C746"
+    },
+    {
+      "nome": "Cittareale",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02010"
+      ],
+      "popolazione": 470,
+      "codiceCatastale": "C749"
+    },
+    {
+      "nome": "Civita Castellana",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01033"
+      ],
+      "popolazione": 15596,
+      "codiceCatastale": "C765"
+    },
+    {
+      "nome": "Civitavecchia",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00053"
+      ],
+      "popolazione": 51229,
+      "codiceCatastale": "C773"
+    },
+    {
+      "nome": "Civitella d'Agliano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01020"
+      ],
+      "popolazione": 1658,
+      "codiceCatastale": "C780"
+    },
+    {
+      "nome": "Civitella San Paolo",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 1754,
+      "codiceCatastale": "C784"
+    },
+    {
+      "nome": "Colfelice",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 1853,
+      "codiceCatastale": "C836"
+    },
+    {
+      "nome": "Collalto Sabino",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02022"
+      ],
+      "popolazione": 440,
+      "codiceCatastale": "C841"
+    },
+    {
+      "nome": "Colle di Tora",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02020"
+      ],
+      "popolazione": 384,
+      "codiceCatastale": "C857"
+    },
+    {
+      "nome": "Colle San Magno",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 744,
+      "codiceCatastale": "C870"
+    },
+    {
+      "nome": "Colleferro",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00034"
+      ],
+      "popolazione": 21574,
+      "codiceCatastale": "C858"
+    },
+    {
+      "nome": "Collegiove",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02020"
+      ],
+      "popolazione": 169,
+      "codiceCatastale": "C859"
+    },
+    {
+      "nome": "Collepardo",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03010"
+      ],
+      "popolazione": 975,
+      "codiceCatastale": "C864"
+    },
+    {
+      "nome": "Collevecchio",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02042"
+      ],
+      "popolazione": 1595,
+      "codiceCatastale": "C876"
+    },
+    {
+      "nome": "Colli sul Velino",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02010"
+      ],
+      "popolazione": 524,
+      "codiceCatastale": "C880"
+    },
+    {
+      "nome": "Colonna",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 4002,
+      "codiceCatastale": "C900"
+    },
+    {
+      "nome": "Concerviano",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02020"
+      ],
+      "popolazione": 311,
+      "codiceCatastale": "C946"
+    },
+    {
+      "nome": "Configni",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 672,
+      "codiceCatastale": "C959"
+    },
+    {
+      "nome": "Contigliano",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02043"
+      ],
+      "popolazione": 3601,
+      "codiceCatastale": "C969"
+    },
+    {
+      "nome": "Corchiano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01030"
+      ],
+      "popolazione": 3740,
+      "codiceCatastale": "C988"
+    },
+    {
+      "nome": "Coreno Ausonio",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 1671,
+      "codiceCatastale": "C998"
+    },
+    {
+      "nome": "Cori",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04010"
+      ],
+      "popolazione": 11025,
+      "codiceCatastale": "D003"
+    },
+    {
+      "nome": "Cottanello",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 562,
+      "codiceCatastale": "D124"
+    },
+    {
+      "nome": "Esperia",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03045"
+      ],
+      "popolazione": 3903,
+      "codiceCatastale": "D440"
+    },
+    {
+      "nome": "Fabrica di Roma",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01034"
+      ],
+      "popolazione": 8136,
+      "codiceCatastale": "D452"
+    },
+    {
+      "nome": "Faleria",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01030"
+      ],
+      "popolazione": 2115,
+      "codiceCatastale": "D475"
+    },
+    {
+      "nome": "Falvaterra",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03020"
+      ],
+      "popolazione": 567,
+      "codiceCatastale": "D483"
+    },
+    {
+      "nome": "Fara in Sabina",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02032"
+      ],
+      "popolazione": 12326,
+      "codiceCatastale": "D493"
+    },
+    {
+      "nome": "Farnese",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 1631,
+      "codiceCatastale": "D503"
+    },
+    {
+      "nome": "Ferentino",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03013"
+      ],
+      "popolazione": 20966,
+      "codiceCatastale": "D539"
+    },
+    {
+      "nome": "Fiamignano",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02023"
+      ],
+      "popolazione": 1455,
+      "codiceCatastale": "D560"
+    },
+    {
+      "nome": "Fiano Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00065"
+      ],
+      "popolazione": 13059,
+      "codiceCatastale": "D561"
+    },
+    {
+      "nome": "Filacciano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 490,
+      "codiceCatastale": "D586"
+    },
+    {
+      "nome": "Filettino",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03010"
+      ],
+      "popolazione": 551,
+      "codiceCatastale": "D591"
+    },
+    {
+      "nome": "Fiuggi",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03014"
+      ],
+      "popolazione": 9645,
+      "codiceCatastale": "A310"
+    },
+    {
+      "nome": "Fiumicino",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00054"
+      ],
+      "popolazione": 67626,
+      "codiceCatastale": "M297"
+    },
+    {
+      "nome": "Fondi",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04022"
+      ],
+      "popolazione": 37180,
+      "codiceCatastale": "D662"
+    },
+    {
+      "nome": "Fontana Liri",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03035"
+      ],
+      "popolazione": 2993,
+      "codiceCatastale": "D667"
+    },
+    {
+      "nome": "Fonte Nuova",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00013"
+      ],
+      "popolazione": 30572,
+      "codiceCatastale": "M309"
+    },
+    {
+      "nome": "Fontechiari",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 1318,
+      "codiceCatastale": "D682"
+    },
+    {
+      "nome": "Forano",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02044"
+      ],
+      "popolazione": 2933,
+      "codiceCatastale": "D689"
+    },
+    {
+      "nome": "Formello",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 11909,
+      "codiceCatastale": "D707"
+    },
+    {
+      "nome": "Formia",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04023"
+      ],
+      "popolazione": 36331,
+      "codiceCatastale": "D708"
+    },
+    {
+      "nome": "Frascati",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00044"
+      ],
+      "popolazione": 20755,
+      "codiceCatastale": "D773"
+    },
+    {
+      "nome": "Frasso Sabino",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02030"
+      ],
+      "popolazione": 688,
+      "codiceCatastale": "D785"
+    },
+    {
+      "nome": "Frosinone",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03100"
+      ],
+      "popolazione": 46649,
+      "codiceCatastale": "D810"
+    },
+    {
+      "nome": "Fumone",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03010"
+      ],
+      "popolazione": 2180,
+      "codiceCatastale": "D819"
+    },
+    {
+      "nome": "Gaeta",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04024"
+      ],
+      "popolazione": 20762,
+      "codiceCatastale": "D843"
+    },
+    {
+      "nome": "Gallese",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01035"
+      ],
+      "popolazione": 2994,
+      "codiceCatastale": "D870"
+    },
+    {
+      "nome": "Gallicano nel Lazio",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00010"
+      ],
+      "popolazione": 5749,
+      "codiceCatastale": "D875"
+    },
+    {
+      "nome": "Gallinaro",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 1246,
+      "codiceCatastale": "D881"
+    },
+    {
+      "nome": "Gavignano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 1956,
+      "codiceCatastale": "D945"
+    },
+    {
+      "nome": "Genazzano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 5959,
+      "codiceCatastale": "D964"
+    },
+    {
+      "nome": "Genzano di Roma",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00045"
+      ],
+      "popolazione": 23780,
+      "codiceCatastale": "D972"
+    },
+    {
+      "nome": "Gerano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00025"
+      ],
+      "popolazione": 1248,
+      "codiceCatastale": "D978"
+    },
+    {
+      "nome": "Giuliano di Roma",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03020"
+      ],
+      "popolazione": 2343,
+      "codiceCatastale": "E057"
+    },
+    {
+      "nome": "Gorga",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 767,
+      "codiceCatastale": "E091"
+    },
+    {
+      "nome": "Gradoli",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 1474,
+      "codiceCatastale": "E126"
+    },
+    {
+      "nome": "Graffignano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01020"
+      ],
+      "popolazione": 2319,
+      "codiceCatastale": "E128"
+    },
+    {
+      "nome": "Greccio",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02045"
+      ],
+      "popolazione": 1520,
+      "codiceCatastale": "E160"
+    },
+    {
+      "nome": "Grottaferrata",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00046"
+      ],
+      "popolazione": 19156,
+      "codiceCatastale": "E204"
+    },
+    {
+      "nome": "Grotte di Castro",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01025"
+      ],
+      "popolazione": 2795,
+      "codiceCatastale": "E210"
+    },
+    {
+      "nome": "Guarcino",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03016"
+      ],
+      "popolazione": 1658,
+      "codiceCatastale": "E236"
+    },
+    {
+      "nome": "Guidonia Montecelio",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00012"
+      ],
+      "popolazione": 81447,
+      "codiceCatastale": "E263"
+    },
+    {
+      "nome": "Ischia di Castro",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 2377,
+      "codiceCatastale": "E330"
+    },
+    {
+      "nome": "Isola del Liri",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03036"
+      ],
+      "popolazione": 11963,
+      "codiceCatastale": "E340"
+    },
+    {
+      "nome": "Itri",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04020"
+      ],
+      "popolazione": 10460,
+      "codiceCatastale": "E375"
+    },
+    {
+      "nome": "Jenne",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 398,
+      "codiceCatastale": "E382"
+    },
+    {
+      "nome": "Labico",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 5979,
+      "codiceCatastale": "E392"
+    },
+    {
+      "nome": "Labro",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02010"
+      ],
+      "popolazione": 344,
+      "codiceCatastale": "E393"
+    },
+    {
+      "nome": "Ladispoli",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00055"
+      ],
+      "popolazione": 37293,
+      "codiceCatastale": "M212"
+    },
+    {
+      "nome": "Lanuvio",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00075"
+      ],
+      "popolazione": 13006,
+      "codiceCatastale": "C767"
+    },
+    {
+      "nome": "Lariano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00076"
+      ],
+      "popolazione": 12893,
+      "codiceCatastale": "M207"
+    },
+    {
+      "nome": "Latera",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 933,
+      "codiceCatastale": "E467"
+    },
+    {
+      "nome": "Latina",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04100"
+      ],
+      "popolazione": 117892,
+      "codiceCatastale": "E472"
+    },
+    {
+      "nome": "Lenola",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04025"
+      ],
+      "popolazione": 4155,
+      "codiceCatastale": "E527"
+    },
+    {
+      "nome": "Leonessa",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02016"
+      ],
+      "popolazione": 2480,
+      "codiceCatastale": "E535"
+    },
+    {
+      "nome": "Licenza",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00026"
+      ],
+      "popolazione": 1012,
+      "codiceCatastale": "E576"
+    },
+    {
+      "nome": "Longone Sabino",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02020"
+      ],
+      "popolazione": 583,
+      "codiceCatastale": "E681"
+    },
+    {
+      "nome": "Lubriano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01020"
+      ],
+      "popolazione": 919,
+      "codiceCatastale": "E713"
+    },
+    {
+      "nome": "Maenza",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04010"
+      ],
+      "popolazione": 3078,
+      "codiceCatastale": "E798"
+    },
+    {
+      "nome": "Magliano Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 1470,
+      "codiceCatastale": "E813"
+    },
+    {
+      "nome": "Magliano Sabina",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02046"
+      ],
+      "popolazione": 3799,
+      "codiceCatastale": "E812"
+    },
+    {
+      "nome": "Mandela",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 897,
+      "codiceCatastale": "B632"
+    },
+    {
+      "nome": "Manziana",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00066"
+      ],
+      "popolazione": 7082,
+      "codiceCatastale": "E900"
+    },
+    {
+      "nome": "Marano Equo",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 786,
+      "codiceCatastale": "E908"
+    },
+    {
+      "nome": "Marcellina",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00010"
+      ],
+      "popolazione": 6901,
+      "codiceCatastale": "E924"
+    },
+    {
+      "nome": "Marcetelli",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02020"
+      ],
+      "popolazione": 97,
+      "codiceCatastale": "E927"
+    },
+    {
+      "nome": "Marino",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00047"
+      ],
+      "popolazione": 38245,
+      "codiceCatastale": "E958"
+    },
+    {
+      "nome": "Marta",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 3520,
+      "codiceCatastale": "E978"
+    },
+    {
+      "nome": "Mazzano Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 3056,
+      "codiceCatastale": "F064"
+    },
+    {
+      "nome": "Mentana",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00013"
+      ],
+      "popolazione": 20772,
+      "codiceCatastale": "F127"
+    },
+    {
+      "nome": "Micigliano",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02010"
+      ],
+      "popolazione": 131,
+      "codiceCatastale": "F193"
+    },
+    {
+      "nome": "Minturno",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04026"
+      ],
+      "popolazione": 19472,
+      "codiceCatastale": "F224"
+    },
+    {
+      "nome": "Mompeo",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 534,
+      "codiceCatastale": "F319"
+    },
+    {
+      "nome": "Montalto di Castro",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01014"
+      ],
+      "popolazione": 8770,
+      "codiceCatastale": "F419"
+    },
+    {
+      "nome": "Montasola",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 403,
+      "codiceCatastale": "F430"
+    },
+    {
+      "nome": "Monte Compatri",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00077"
+      ],
+      "popolazione": 11234,
+      "codiceCatastale": "F477"
+    },
+    {
+      "nome": "Monte Porzio Catone",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00078"
+      ],
+      "popolazione": 8617,
+      "codiceCatastale": "F590"
+    },
+    {
+      "nome": "Monte Romano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 2007,
+      "codiceCatastale": "F603"
+    },
+    {
+      "nome": "Monte San Biagio",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04020"
+      ],
+      "popolazione": 6144,
+      "codiceCatastale": "F616"
+    },
+    {
+      "nome": "Monte San Giovanni Campano",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03025"
+      ],
+      "popolazione": 12882,
+      "codiceCatastale": "F620"
+    },
+    {
+      "nome": "Monte San Giovanni in Sabina",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 752,
+      "codiceCatastale": "F619"
+    },
+    {
+      "nome": "Montebuono",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 917,
+      "codiceCatastale": "F446"
+    },
+    {
+      "nome": "Montefiascone",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01027"
+      ],
+      "popolazione": 13388,
+      "codiceCatastale": "F499"
+    },
+    {
+      "nome": "Monteflavio",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00010"
+      ],
+      "popolazione": 1399,
+      "codiceCatastale": "F504"
+    },
+    {
+      "nome": "Montelanico",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 2152,
+      "codiceCatastale": "F534"
+    },
+    {
+      "nome": "Monteleone Sabino",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02033"
+      ],
+      "popolazione": 1232,
+      "codiceCatastale": "F541"
+    },
+    {
+      "nome": "Montelibretti",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00010"
+      ],
+      "popolazione": 5213,
+      "codiceCatastale": "F545"
+    },
+    {
+      "nome": "Montenero Sabino",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 295,
+      "codiceCatastale": "F579"
+    },
+    {
+      "nome": "Monterosi",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01030"
+      ],
+      "popolazione": 3868,
+      "codiceCatastale": "F606"
+    },
+    {
+      "nome": "Monterotondo",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00015"
+      ],
+      "popolazione": 39502,
+      "codiceCatastale": "F611"
+    },
+    {
+      "nome": "Montopoli di Sabina",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02034"
+      ],
+      "popolazione": 4222,
+      "codiceCatastale": "F687"
+    },
+    {
+      "nome": "Montorio Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00010"
+      ],
+      "popolazione": 2035,
+      "codiceCatastale": "F692"
+    },
+    {
+      "nome": "Moricone",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00010"
+      ],
+      "popolazione": 2683,
+      "codiceCatastale": "F730"
+    },
+    {
+      "nome": "Morlupo",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00067"
+      ],
+      "popolazione": 8122,
+      "codiceCatastale": "F734"
+    },
+    {
+      "nome": "Morolo",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03017"
+      ],
+      "popolazione": 3267,
+      "codiceCatastale": "F740"
+    },
+    {
+      "nome": "Morro Reatino",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02010"
+      ],
+      "popolazione": 356,
+      "codiceCatastale": "F746"
+    },
+    {
+      "nome": "Nazzano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 1361,
+      "codiceCatastale": "F857"
+    },
+    {
+      "nome": "Nemi",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00074"
+      ],
+      "popolazione": 1925,
+      "codiceCatastale": "F865"
+    },
+    {
+      "nome": "Nepi",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01036"
+      ],
+      "popolazione": 9353,
+      "codiceCatastale": "F868"
+    },
+    {
+      "nome": "Nerola",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00017"
+      ],
+      "popolazione": 1821,
+      "codiceCatastale": "F871"
+    },
+    {
+      "nome": "Nespolo",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02020"
+      ],
+      "popolazione": 274,
+      "codiceCatastale": "F876"
+    },
+    {
+      "nome": "Nettuno",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00048"
+      ],
+      "popolazione": 45460,
+      "codiceCatastale": "F880"
+    },
+    {
+      "nome": "Norma",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04010"
+      ],
+      "popolazione": 4035,
+      "codiceCatastale": "F937"
+    },
+    {
+      "nome": "Olevano Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00035"
+      ],
+      "popolazione": 6742,
+      "codiceCatastale": "G022"
+    },
+    {
+      "nome": "Onano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 1017,
+      "codiceCatastale": "G065"
+    },
+    {
+      "nome": "Oriolo Romano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 3648,
+      "codiceCatastale": "G111"
+    },
+    {
+      "nome": "Orte",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01028"
+      ],
+      "popolazione": 8665,
+      "codiceCatastale": "G135"
+    },
+    {
+      "nome": "Orvinio",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02035"
+      ],
+      "popolazione": 448,
+      "codiceCatastale": "B595"
+    },
+    {
+      "nome": "Paganico Sabino",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02020"
+      ],
+      "popolazione": 172,
+      "codiceCatastale": "G232"
+    },
+    {
+      "nome": "Palestrina",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00036"
+      ],
+      "popolazione": 20498,
+      "codiceCatastale": "G274"
+    },
+    {
+      "nome": "Paliano",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03018"
+      ],
+      "popolazione": 8146,
+      "codiceCatastale": "G276"
+    },
+    {
+      "nome": "Palombara Sabina",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00018"
+      ],
+      "popolazione": 12167,
+      "codiceCatastale": "G293"
+    },
+    {
+      "nome": "Pastena",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03020"
+      ],
+      "popolazione": 1528,
+      "codiceCatastale": "G362"
+    },
+    {
+      "nome": "Patrica",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03010"
+      ],
+      "popolazione": 3084,
+      "codiceCatastale": "G374"
+    },
+    {
+      "nome": "Percile",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 277,
+      "codiceCatastale": "G444"
+    },
+    {
+      "nome": "Pescorocchiano",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02024"
+      ],
+      "popolazione": 2211,
+      "codiceCatastale": "G498"
+    },
+    {
+      "nome": "Pescosolido",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 1552,
+      "codiceCatastale": "G500"
+    },
+    {
+      "nome": "Petrella Salto",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02025"
+      ],
+      "popolazione": 1212,
+      "codiceCatastale": "G513"
+    },
+    {
+      "nome": "Piansano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 2147,
+      "codiceCatastale": "G571"
+    },
+    {
+      "nome": "Picinisco",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 1255,
+      "codiceCatastale": "G591"
+    },
+    {
+      "nome": "Pico",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03020"
+      ],
+      "popolazione": 3004,
+      "codiceCatastale": "G592"
+    },
+    {
+      "nome": "Piedimonte San Germano",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 6036,
+      "codiceCatastale": "G598"
+    },
+    {
+      "nome": "Piglio",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03010"
+      ],
+      "popolazione": 4657,
+      "codiceCatastale": "G659"
+    },
+    {
+      "nome": "Pignataro Interamna",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 2558,
+      "codiceCatastale": "G662"
+    },
+    {
+      "nome": "Pisoniano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 803,
+      "codiceCatastale": "G704"
+    },
+    {
+      "nome": "Pofi",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03026"
+      ],
+      "popolazione": 4303,
+      "codiceCatastale": "G749"
+    },
+    {
+      "nome": "Poggio Bustone",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02018"
+      ],
+      "popolazione": 2130,
+      "codiceCatastale": "G756"
+    },
+    {
+      "nome": "Poggio Catino",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 1335,
+      "codiceCatastale": "G757"
+    },
+    {
+      "nome": "Poggio Mirteto",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02047"
+      ],
+      "popolazione": 5995,
+      "codiceCatastale": "G763"
+    },
+    {
+      "nome": "Poggio Moiano",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02037"
+      ],
+      "popolazione": 2798,
+      "codiceCatastale": "G764"
+    },
+    {
+      "nome": "Poggio Nativo",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02030"
+      ],
+      "popolazione": 2456,
+      "codiceCatastale": "G765"
+    },
+    {
+      "nome": "Poggio San Lorenzo",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02030"
+      ],
+      "popolazione": 580,
+      "codiceCatastale": "G770"
+    },
+    {
+      "nome": "Poli",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00010"
+      ],
+      "popolazione": 2433,
+      "codiceCatastale": "G784"
+    },
+    {
+      "nome": "Pomezia",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00071"
+      ],
+      "popolazione": 56372,
+      "codiceCatastale": "G811"
+    },
+    {
+      "nome": "Pontecorvo",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03037"
+      ],
+      "popolazione": 13223,
+      "codiceCatastale": "G838"
+    },
+    {
+      "nome": "Pontinia",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04014"
+      ],
+      "popolazione": 13812,
+      "codiceCatastale": "G865"
+    },
+    {
+      "nome": "Ponza",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04027"
+      ],
+      "popolazione": 3255,
+      "codiceCatastale": "G871"
+    },
+    {
+      "nome": "Ponzano Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 1158,
+      "codiceCatastale": "G874"
+    },
+    {
+      "nome": "Posta",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02019"
+      ],
+      "popolazione": 686,
+      "codiceCatastale": "G934"
+    },
+    {
+      "nome": "Posta Fibreno",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 1217,
+      "codiceCatastale": "G935"
+    },
+    {
+      "nome": "Pozzaglia Sabina",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02030"
+      ],
+      "popolazione": 361,
+      "codiceCatastale": "G951"
+    },
+    {
+      "nome": "Priverno",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04015"
+      ],
+      "popolazione": 13891,
+      "codiceCatastale": "G698"
+    },
+    {
+      "nome": "Proceno",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01020"
+      ],
+      "popolazione": 605,
+      "codiceCatastale": "H071"
+    },
+    {
+      "nome": "Prossedi",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04010"
+      ],
+      "popolazione": 1233,
+      "codiceCatastale": "H076"
+    },
+    {
+      "nome": "Riano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 9536,
+      "codiceCatastale": "H267"
+    },
+    {
+      "nome": "Rieti",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02100"
+      ],
+      "popolazione": 46187,
+      "codiceCatastale": "H282"
+    },
+    {
+      "nome": "Rignano Flaminio",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00068"
+      ],
+      "popolazione": 9573,
+      "codiceCatastale": "H288"
+    },
+    {
+      "nome": "Riofreddo",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 762,
+      "codiceCatastale": "H300"
+    },
+    {
+      "nome": "Ripi",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03027"
+      ],
+      "popolazione": 5346,
+      "codiceCatastale": "H324"
+    },
+    {
+      "nome": "Rivodutri",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02010"
+      ],
+      "popolazione": 1297,
+      "codiceCatastale": "H354"
+    },
+    {
+      "nome": "Rocca Canterano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 207,
+      "codiceCatastale": "H387"
+    },
+    {
+      "nome": "Rocca d'Arce",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 971,
+      "codiceCatastale": "H393"
+    },
+    {
+      "nome": "Rocca di Cave",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 396,
+      "codiceCatastale": "H401"
+    },
+    {
+      "nome": "Rocca di Papa",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00040"
+      ],
+      "popolazione": 15576,
+      "codiceCatastale": "H404"
+    },
+    {
+      "nome": "Rocca Massima",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04010"
+      ],
+      "popolazione": 1094,
+      "codiceCatastale": "H421"
+    },
+    {
+      "nome": "Rocca Priora",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00079"
+      ],
+      "popolazione": 10819,
+      "codiceCatastale": "H432"
+    },
+    {
+      "nome": "Rocca Santo Stefano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 1028,
+      "codiceCatastale": "H441"
+    },
+    {
+      "nome": "Rocca Sinibalda",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02026"
+      ],
+      "popolazione": 853,
+      "codiceCatastale": "H446"
+    },
+    {
+      "nome": "Roccagiovine",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 280,
+      "codiceCatastale": "H411"
+    },
+    {
+      "nome": "Roccagorga",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04010"
+      ],
+      "popolazione": 4552,
+      "codiceCatastale": "H413"
+    },
+    {
+      "nome": "Roccantica",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 605,
+      "codiceCatastale": "H427"
+    },
+    {
+      "nome": "Roccasecca",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03038"
+      ],
+      "popolazione": 7536,
+      "codiceCatastale": "H443"
+    },
+    {
+      "nome": "Roccasecca dei Volsci",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04010"
+      ],
+      "popolazione": 1126,
+      "codiceCatastale": "H444"
+    },
+    {
+      "nome": "Roiate",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 749,
+      "codiceCatastale": "H494"
+    },
+    {
+      "nome": "Roma",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00118",
+        "00119",
+        "00120",
+        "00121",
+        "00122",
+        "00123",
+        "00124",
+        "00125",
+        "00126",
+        "00127",
+        "00128",
+        "00129",
+        "00130",
+        "00131",
+        "00132",
+        "00133",
+        "00134",
+        "00135",
+        "00136",
+        "00137",
+        "00138",
+        "00139",
+        "00140",
+        "00141",
+        "00142",
+        "00143",
+        "00144",
+        "00145",
+        "00146",
+        "00147",
+        "00148",
+        "00149",
+        "00150",
+        "00151",
+        "00152",
+        "00153",
+        "00154",
+        "00155",
+        "00156",
+        "00157",
+        "00158",
+        "00159",
+        "00160",
+        "00161",
+        "00162",
+        "00163",
+        "00164",
+        "00165",
+        "00166",
+        "00167",
+        "00168",
+        "00169",
+        "00170",
+        "00171",
+        "00172",
+        "00173",
+        "00174",
+        "00175",
+        "00176",
+        "00177",
+        "00178",
+        "00179",
+        "00180",
+        "00181",
+        "00182",
+        "00183",
+        "00184",
+        "00185",
+        "00186",
+        "00187",
+        "00188",
+        "00189",
+        "00190",
+        "00191",
+        "00192",
+        "00193",
+        "00194",
+        "00195",
+        "00196",
+        "00197",
+        "00198",
+        "00199"
+      ],
+      "popolazione": 2617175,
+      "codiceCatastale": "H501"
+    },
+    {
+      "nome": "Ronciglione",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01037"
+      ],
+      "popolazione": 8308,
+      "codiceCatastale": "H534"
+    },
+    {
+      "nome": "Roviano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00027"
+      ],
+      "popolazione": 1392,
+      "codiceCatastale": "H618"
+    },
+    {
+      "nome": "Sabaudia",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04016"
+      ],
+      "popolazione": 18812,
+      "codiceCatastale": "H647"
+    },
+    {
+      "nome": "Sacrofano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 6668,
+      "codiceCatastale": "H658"
+    },
+    {
+      "nome": "Salisano",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 558,
+      "codiceCatastale": "H713"
+    },
+    {
+      "nome": "Sambuci",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 936,
+      "codiceCatastale": "H745"
+    },
+    {
+      "nome": "San Biagio Saracinisco",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 361,
+      "codiceCatastale": "H779"
+    },
+    {
+      "nome": "San Cesareo",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 13806,
+      "codiceCatastale": "M295"
+    },
+    {
+      "nome": "San Donato Val di Comino",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03046"
+      ],
+      "popolazione": 2122,
+      "codiceCatastale": "H824"
+    },
+    {
+      "nome": "San Felice Circeo",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04017"
+      ],
+      "popolazione": 8709,
+      "codiceCatastale": "H836"
+    },
+    {
+      "nome": "San Giorgio a Liri",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03047"
+      ],
+      "popolazione": 3166,
+      "codiceCatastale": "H880"
+    },
+    {
+      "nome": "San Giovanni Incarico",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03028"
+      ],
+      "popolazione": 3410,
+      "codiceCatastale": "H917"
+    },
+    {
+      "nome": "San Gregorio da Sassola",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00010"
+      ],
+      "popolazione": 1553,
+      "codiceCatastale": "H942"
+    },
+    {
+      "nome": "San Lorenzo Nuovo",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01020"
+      ],
+      "popolazione": 2166,
+      "codiceCatastale": "H969"
+    },
+    {
+      "nome": "San Polo dei Cavalieri",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00010"
+      ],
+      "popolazione": 2984,
+      "codiceCatastale": "I125"
+    },
+    {
+      "nome": "San Vito Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00030"
+      ],
+      "popolazione": 3366,
+      "codiceCatastale": "I400"
+    },
+    {
+      "nome": "San Vittore del Lazio",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 2679,
+      "codiceCatastale": "I408"
+    },
+    {
+      "nome": "Sant'Ambrogio sul Garigliano",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 994,
+      "codiceCatastale": "I256"
+    },
+    {
+      "nome": "Sant'Andrea del Garigliano",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 1566,
+      "codiceCatastale": "I265"
+    },
+    {
+      "nome": "Sant'Angelo Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00010"
+      ],
+      "popolazione": 4488,
+      "codiceCatastale": "I284"
+    },
+    {
+      "nome": "Sant'Apollinare",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03048"
+      ],
+      "popolazione": 1931,
+      "codiceCatastale": "I302"
+    },
+    {
+      "nome": "Sant'Elia Fiumerapido",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03049"
+      ],
+      "popolazione": 6227,
+      "codiceCatastale": "I321"
+    },
+    {
+      "nome": "Sant'Oreste",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 3702,
+      "codiceCatastale": "I352"
+    },
+    {
+      "nome": "Santa Marinella",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00058"
+      ],
+      "popolazione": 17403,
+      "codiceCatastale": "I255"
+    },
+    {
+      "nome": "Santi Cosma e Damiano",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04020"
+      ],
+      "popolazione": 6882,
+      "codiceCatastale": "I339"
+    },
+    {
+      "nome": "Santopadre",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 1410,
+      "codiceCatastale": "I351"
+    },
+    {
+      "nome": "Saracinesco",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 184,
+      "codiceCatastale": "I424"
+    },
+    {
+      "nome": "Scandriglia",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02038"
+      ],
+      "popolazione": 2934,
+      "codiceCatastale": "I499"
+    },
+    {
+      "nome": "Segni",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00037"
+      ],
+      "popolazione": 9101,
+      "codiceCatastale": "I573"
+    },
+    {
+      "nome": "Selci",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 1106,
+      "codiceCatastale": "I581"
+    },
+    {
+      "nome": "Sermoneta",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04013"
+      ],
+      "popolazione": 9129,
+      "codiceCatastale": "I634"
+    },
+    {
+      "nome": "Serrone",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03010"
+      ],
+      "popolazione": 3069,
+      "codiceCatastale": "I669"
+    },
+    {
+      "nome": "Settefrati",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 792,
+      "codiceCatastale": "I697"
+    },
+    {
+      "nome": "Sezze",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04018"
+      ],
+      "popolazione": 24114,
+      "codiceCatastale": "I712"
+    },
+    {
+      "nome": "Sgurgola",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03010"
+      ],
+      "popolazione": 2623,
+      "codiceCatastale": "I716"
+    },
+    {
+      "nome": "Sonnino",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04010"
+      ],
+      "popolazione": 7279,
+      "codiceCatastale": "I832"
+    },
+    {
+      "nome": "Sora",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03039"
+      ],
+      "popolazione": 26247,
+      "codiceCatastale": "I838"
+    },
+    {
+      "nome": "Soriano nel Cimino",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01038"
+      ],
+      "popolazione": 8544,
+      "codiceCatastale": "I855"
+    },
+    {
+      "nome": "Sperlonga",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04029"
+      ],
+      "popolazione": 3334,
+      "codiceCatastale": "I892"
+    },
+    {
+      "nome": "Spigno Saturnia",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04020"
+      ],
+      "popolazione": 2903,
+      "codiceCatastale": "I902"
+    },
+    {
+      "nome": "Stimigliano",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02048"
+      ],
+      "popolazione": 2241,
+      "codiceCatastale": "I959"
+    },
+    {
+      "nome": "Strangolagalli",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03020"
+      ],
+      "popolazione": 2501,
+      "codiceCatastale": "I973"
+    },
+    {
+      "nome": "Subiaco",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00028"
+      ],
+      "popolazione": 9066,
+      "codiceCatastale": "I992"
+    },
+    {
+      "nome": "Supino",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03019"
+      ],
+      "popolazione": 4893,
+      "codiceCatastale": "L009"
+    },
+    {
+      "nome": "Sutri",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01015"
+      ],
+      "popolazione": 6552,
+      "codiceCatastale": "L017"
+    },
+    {
+      "nome": "Tarano",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 1431,
+      "codiceCatastale": "L046"
+    },
+    {
+      "nome": "Tarquinia",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01016"
+      ],
+      "popolazione": 16016,
+      "codiceCatastale": "D024"
+    },
+    {
+      "nome": "Terelle",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 460,
+      "codiceCatastale": "L105"
+    },
+    {
+      "nome": "Terracina",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04019"
+      ],
+      "popolazione": 44233,
+      "codiceCatastale": "L120"
+    },
+    {
+      "nome": "Tessennano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 350,
+      "codiceCatastale": "L150"
+    },
+    {
+      "nome": "Tivoli",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00019"
+      ],
+      "popolazione": 52910,
+      "codiceCatastale": "L182"
+    },
+    {
+      "nome": "Toffia",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02039"
+      ],
+      "popolazione": 1002,
+      "codiceCatastale": "L189"
+    },
+    {
+      "nome": "Tolfa",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00059"
+      ],
+      "popolazione": 5147,
+      "codiceCatastale": "L192"
+    },
+    {
+      "nome": "Torre Cajetani",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03010"
+      ],
+      "popolazione": 1388,
+      "codiceCatastale": "L243"
+    },
+    {
+      "nome": "Torri in Sabina",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02049"
+      ],
+      "popolazione": 1249,
+      "codiceCatastale": "L286"
+    },
+    {
+      "nome": "Torrice",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03020"
+      ],
+      "popolazione": 4608,
+      "codiceCatastale": "L290"
+    },
+    {
+      "nome": "Torricella in Sabina",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02030"
+      ],
+      "popolazione": 1405,
+      "codiceCatastale": "L293"
+    },
+    {
+      "nome": "Torrita Tiberina",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00060"
+      ],
+      "popolazione": 1071,
+      "codiceCatastale": "L302"
+    },
+    {
+      "nome": "Trevi nel Lazio",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03010"
+      ],
+      "popolazione": 1853,
+      "codiceCatastale": "L398"
+    },
+    {
+      "nome": "Trevignano Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00069"
+      ],
+      "popolazione": 5274,
+      "codiceCatastale": "L401"
+    },
+    {
+      "nome": "Trivigliano",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03010"
+      ],
+      "popolazione": 1693,
+      "codiceCatastale": "L437"
+    },
+    {
+      "nome": "Turania",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02020"
+      ],
+      "popolazione": 245,
+      "codiceCatastale": "G507"
+    },
+    {
+      "nome": "Tuscania",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01017"
+      ],
+      "popolazione": 8145,
+      "codiceCatastale": "L310"
+    },
+    {
+      "nome": "Vacone",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02040"
+      ],
+      "popolazione": 264,
+      "codiceCatastale": "L525"
+    },
+    {
+      "nome": "Valentano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01018"
+      ],
+      "popolazione": 2895,
+      "codiceCatastale": "L569"
+    },
+    {
+      "nome": "Vallecorsa",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03020"
+      ],
+      "popolazione": 2800,
+      "codiceCatastale": "L598"
+    },
+    {
+      "nome": "Vallemaio",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 1002,
+      "codiceCatastale": "L605"
+    },
+    {
+      "nome": "Vallepietra",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 306,
+      "codiceCatastale": "L611"
+    },
+    {
+      "nome": "Vallerano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01030"
+      ],
+      "popolazione": 2613,
+      "codiceCatastale": "L612"
+    },
+    {
+      "nome": "Vallerotonda",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 1671,
+      "codiceCatastale": "L614"
+    },
+    {
+      "nome": "Vallinfreda",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 317,
+      "codiceCatastale": "L625"
+    },
+    {
+      "nome": "Valmontone",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00038"
+      ],
+      "popolazione": 14975,
+      "codiceCatastale": "L639"
+    },
+    {
+      "nome": "Varco Sabino",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "cap": [
+        "02020"
+      ],
+      "popolazione": 210,
+      "codiceCatastale": "L676"
+    },
+    {
+      "nome": "Vasanello",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01030"
+      ],
+      "popolazione": 4161,
+      "codiceCatastale": "A701"
+    },
+    {
+      "nome": "Vejano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 2298,
+      "codiceCatastale": "L713"
+    },
+    {
+      "nome": "Velletri",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00049"
+      ],
+      "popolazione": 52295,
+      "codiceCatastale": "L719"
+    },
+    {
+      "nome": "Ventotene",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "cap": [
+        "04031"
+      ],
+      "popolazione": 691,
+      "codiceCatastale": "L742"
+    },
+    {
+      "nome": "Veroli",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03029"
+      ],
+      "popolazione": 20763,
+      "codiceCatastale": "L780"
+    },
+    {
+      "nome": "Vetralla",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01019"
+      ],
+      "popolazione": 13507,
+      "codiceCatastale": "L814"
+    },
+    {
+      "nome": "Vicalvi",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 806,
+      "codiceCatastale": "L836"
+    },
+    {
+      "nome": "Vico nel Lazio",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03010"
+      ],
+      "popolazione": 2256,
+      "codiceCatastale": "L843"
+    },
+    {
+      "nome": "Vicovaro",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00029"
+      ],
+      "popolazione": 3937,
+      "codiceCatastale": "L851"
+    },
+    {
+      "nome": "Vignanello",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01039"
+      ],
+      "popolazione": 4826,
+      "codiceCatastale": "L882"
+    },
+    {
+      "nome": "Villa Latina",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 1286,
+      "codiceCatastale": "A081"
+    },
+    {
+      "nome": "Villa San Giovanni in Tuscia",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01010"
+      ],
+      "popolazione": 1313,
+      "codiceCatastale": "H913"
+    },
+    {
+      "nome": "Villa Santa Lucia",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03030"
+      ],
+      "popolazione": 2639,
+      "codiceCatastale": "L905"
+    },
+    {
+      "nome": "Villa Santo Stefano",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03020"
+      ],
+      "popolazione": 1707,
+      "codiceCatastale": "I364"
+    },
+    {
+      "nome": "Viterbo",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01100"
+      ],
+      "popolazione": 63209,
+      "codiceCatastale": "M082"
+    },
+    {
+      "nome": "Viticuso",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "cap": [
+        "03040"
+      ],
+      "popolazione": 372,
+      "codiceCatastale": "M083"
+    },
+    {
+      "nome": "Vitorchiano",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "cap": [
+        "01030"
+      ],
+      "popolazione": 4956,
+      "codiceCatastale": "M086"
+    },
+    {
+      "nome": "Vivaro Romano",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00020"
+      ],
+      "popolazione": 177,
+      "codiceCatastale": "M095"
+    },
+    {
+      "nome": "Zagarolo",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "cap": [
+        "00039"
+      ],
+      "popolazione": 16922,
+      "codiceCatastale": "M141"
+    }
+  ]
+}
