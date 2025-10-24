@@ -2,6 +2,7 @@
   "name": "api-coordinate",
   "version": "1.0.0",
   "description": "API REST per trovare le coordinate dei comuni italiani",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
